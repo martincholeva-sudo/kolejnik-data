@@ -65,6 +65,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 0
       - name: Record the actually verified public delivery
         env:
           PUBLICATION_RECEIPT: ${{ needs.refresh.outputs.receipt }}
