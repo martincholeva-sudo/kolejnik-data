@@ -34,11 +34,12 @@ jobs:
       - uses: actions/cache/restore@v4
         if: ${{ !inputs.verify_only }}
         with:
-          path: |
-            runtime/national-refresh/sources
-            runtime/national-refresh/prepare/rail-state-*.json.gz
-          key: national-inputs-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: national-inputs-v1-
+          path: runtime/national-inputs.tar
+          key: national-inputs-v2-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: national-inputs-v2-
+      - name: Restore verified-source cache from one archive
+        if: ${{ !inputs.verify_only }}
+        run: python scripts/national_cache.py restore
       - name: Read current publication using a repository-scoped key
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
@@ -63,14 +64,17 @@ jobs:
       - name: Verify web delivery and installed-app compatibility
         id: delivery
         run: python scripts/verify_channels.py data-national
-      - uses: actions/cache/save@v4
+      - name: Pack public inputs without enumerating them in the cache action
+        id: pack-cache
         if: ${{ always() && !inputs.verify_only }}
         continue-on-error: true
+        run: python scripts/national_cache.py pack
+      - uses: actions/cache/save@v4
+        if: ${{ always() && !inputs.verify_only && steps.pack-cache.outcome == 'success' }}
+        continue-on-error: true
         with:
-          path: |
-            runtime/national-refresh/sources
-            runtime/national-refresh/prepare/rail-state-*.json.gz
-          key: national-inputs-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          path: runtime/national-inputs.tar
+          key: national-inputs-v2-${{ github.run_id }}-${{ github.run_attempt }}
 
   receipt:
     needs: refresh
