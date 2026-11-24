@@ -13,6 +13,8 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event.repository.private == false
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    outputs:
+      receipt: ${{ steps.delivery.outputs.receipt }}
     env:
       PYTHONPATH: scripts:tests
     steps:
@@ -52,4 +54,28 @@ jobs:
       - name: Check the files actually served to users
         run: python scripts/verify_public_data.py --deployed
       - name: Check installed-app compatibility and write a compact report
+        id: delivery
         run: python scripts/verify_channels.py data-v2
+
+  receipt:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Record the actually verified public delivery
+        env:
+          PUBLICATION_RECEIPT: ${{ needs.refresh.outputs.receipt }}
+        run: |
+          python scripts/save_receipt.py
+          git config user.name 'Kolejnik publication receipt'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add status
+          git commit -m 'Record verified timetable delivery'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1

@@ -30,6 +30,10 @@ GitHub může plánovaný běh opozdit; nejedná se o službu s garancí přesn�
 Stáří dat kontrolují validátory i klienti. Selhání se neskrývá přepsáním času
 ověření bez skutečné kontroly zdroje.
 
+Po úspěšném doručení se do `status/` ukládá malý veřejný doklad o revizi a času
+ověření. Je to skutečná historie vydání a zároveň pravidelná aktivita projektu;
+plánované úlohy tak nezůstávají v repozitáři bez aktivity po dobu 60 dnů.
+
 ## Zdroje a původ
 
 - PID: https://data.pid.cz/PID_GTFS.zip

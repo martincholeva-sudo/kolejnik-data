@@ -65,3 +65,11 @@ if __name__ == '__main__':
     if os.environ.get('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
             f.write(summary)
+    receipt = {'channel': channel, 'revision': manifest['sha256'],
+        'sourceCheckedAt': manifest['checkedAt'], 'start': manifest['start'], 'end': manifest['end'],
+        'deliveryVerifiedAt': dt.datetime.now(dt.timezone.utc).isoformat(),
+        'webAndMobileVerified': True, 'updaterCommit': os.environ.get('GITHUB_SHA'),
+        'run': os.environ.get('GITHUB_RUN_ID')}
+    if os.environ.get('GITHUB_OUTPUT'):
+        with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+            f.write('receipt='+json.dumps(receipt,separators=(',',':'))+'\n')
