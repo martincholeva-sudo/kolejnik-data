@@ -1,0 +1,55 @@
+name: Aktualizace PID bez placenych minut
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3,7,11,15,19,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: publish-pid
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      PYTHONPATH: scripts:tests
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify importer and publication safeguards
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Read current publication using a repository-scoped key
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: martincholeva-sudo/kolejnik-web
+          ref: main
+          path: target
+          ssh-key: ${{ secrets.KOLEJNIK_PUBLISH_KEY }}
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /spojeni/data-v2/
+          fetch-depth: 1
+      - name: Keep the last valid revision for recovery and carryover
+        run: python scripts/seed_data.py data-v2
+      - name: Verify the official source and prepare a complete revision
+        run: python scripts/update_public_data.py
+      - run: python -m pip install scipy
+      - name: Refresh pedestrian links when needed
+        continue-on-error: true
+        run: python scripts/update_walking.py
+      - run: python scripts/verify_public_data.py
+      - name: Publish only validated data to web and mobile branches
+        run: |
+          git -C target config user.name 'Kolejnik data updater'
+          git -C target config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/publish_pid_refs.py --repo target
+      - name: Check the files actually served to users
+        run: python scripts/verify_public_data.py --deployed
+      - name: Check installed-app compatibility and write a compact report
+        run: python scripts/verify_channels.py data-v2

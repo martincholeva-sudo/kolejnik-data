@@ -1,0 +1,299 @@
+{
+  "schema": 1,
+  "sourceUrl": "https://provoz.spravazeleznic.cz/PORTAL/Show.aspx?oid=2348005",
+  "indexUrl": "https://provoz.spravazeleznic.cz/PORTAL/ViewArticle.aspx?oid=34462",
+  "sourceSha256": "81bfbb9cc36c6a8930725d2ffd1b7764183e3bf1285217710a6b6fb94d0bf69c",
+  "sourceBytes": 1249220,
+  "sourceFormat": "xlsx",
+  "validFrom": "2026-10-15",
+  "validUntil": "2026-12-12",
+  "observedAt": "2026-10-27T19:43:30.867536+00:00",
+  "rowCount": 4367,
+  "columns": {
+    "sr70": "Evidenční číslo",
+    "name": "Název",
+    "name35": "Název 35",
+    "name20": "Název 20",
+    "name12": "Název 12",
+    "qualifier": "Kvalifikátor",
+    "qualifierLabel": "Kvalifikátor - popis",
+    "state": "Stav",
+    "stateLabel": "Stav - popis",
+    "latitude": "GPS N (DEG)",
+    "longitude": "GPS E (DEG)"
+  },
+  "parts": [
+    {
+      "file": "part-001.json",
+      "rowCount": 100,
+      "bytes": 26604,
+      "sha256": "3a7f99f394fc30d169062e5f790d86509cd3ae3538ed64d8148d1cee5a039876"
+    },
+    {
+      "file": "part-002.json",
+      "rowCount": 100,
+      "bytes": 26197,
+      "sha256": "78fda70b773704e0e8f514cd250a3b2df4cff1ba89cc5f959ea5f93356ce3cfc"
+    },
+    {
+      "file": "part-003.json",
+      "rowCount": 100,
+      "bytes": 25978,
+      "sha256": "ddd5e4ac4cdacbcbe487908402e3e924fc7d1cb690af410d59772ca93bf45a11"
+    },
+    {
+      "file": "part-004.json",
+      "rowCount": 100,
+      "bytes": 25871,
+      "sha256": "90c493d1c5c3010c25a124f80a29de56dd6be3111eacf9c45fd37671eddcfa3d"
+    },
+    {
+      "file": "part-005.json",
+      "rowCount": 100,
+      "bytes": 26051,
+      "sha256": "1b46c57c5ffdf6c8868f61c83e02f83bd6d5056fefafec5d40a9b43814838876"
+    },
+    {
+      "file": "part-006.json",
+      "rowCount": 100,
+      "bytes": 25851,
+      "sha256": "119e8ef85732df39da78e5df43b16f61b371ba424b55b3704ffdebce13a8739c"
+    },
+    {
+      "file": "part-007.json",
+      "rowCount": 100,
+      "bytes": 25815,
+      "sha256": "8569cab615f28950d3bf43ff36ce5ddfa85d2c948cb78de085dda4991e0f7fd6"
+    },
+    {
+      "file": "part-008.json",
+      "rowCount": 100,
+      "bytes": 25787,
+      "sha256": "6a207c5624cd4a0c43e48f91766b38599a1b0e4b6c65f15da183d9c001ec1970"
+    },
+    {
+      "file": "part-009.json",
+      "rowCount": 100,
+      "bytes": 25246,
+      "sha256": "a43771cafb775961a01cb1fbb8dd5e2afcb65891cfd1a6081f1b5f83316c2510"
+    },
+    {
+      "file": "part-010.json",
+      "rowCount": 100,
+      "bytes": 26332,
+      "sha256": "0dc7cad25c32a80d9cbebb99316055a923afcbf0edff13dfb7405c5ecf7c11de"
+    },
+    {
+      "file": "part-011.json",
+      "rowCount": 100,
+      "bytes": 27693,
+      "sha256": "c0da4aeaa7debf4e0f111ff278935c7da2596c4bffc2867fee30126e0d303492"
+    },
+    {
+      "file": "part-012.json",
+      "rowCount": 100,
+      "bytes": 28519,
+      "sha256": "146ffd9a5b0052c7604787fb8328e7eaf8cc7c2220aa16ddc547e7043d713054"
+    },
+    {
+      "file": "part-013.json",
+      "rowCount": 100,
+      "bytes": 26314,
+      "sha256": "c239369a7110a652fc302efb0623242dad97a17d5e868d4fba81429f7d733395"
+    },
+    {
+      "file": "part-014.json",
+      "rowCount": 100,
+      "bytes": 26068,
+      "sha256": "3aa8344f5cda8c20c7d0cf75e8931df22ac1de650e1c6d5573fa163447db0ad8"
+    },
+    {
+      "file": "part-015.json",
+      "rowCount": 100,
+      "bytes": 26004,
+      "sha256": "82d4ac184ff2137510ebc8cc2168ac64b6bed43748acccfae4b656db4c66a4fd"
+    },
+    {
+      "file": "part-016.json",
+      "rowCount": 100,
+      "bytes": 26238,
+      "sha256": "4e38a6567839b84a8b08fd14389fd56b24a186a2aa8e547a663db9e4c10ad1e5"
+    },
+    {
+      "file": "part-017.json",
+      "rowCount": 100,
+      "bytes": 25978,
+      "sha256": "6f77b00c97add36841aa6f2e63009ec6325aed2d550146ff6101c960510b9bb5"
+    },
+    {
+      "file": "part-018.json",
+      "rowCount": 100,
+      "bytes": 26377,
+      "sha256": "e4cf3bdcc994908e9a8a5b6007b8229059e880f03e99f87e24dea0015539c276"
+    },
+    {
+      "file": "part-019.json",
+      "rowCount": 100,
+      "bytes": 26394,
+      "sha256": "842267f3bc15fbed10347cc2165f39d612a1665278cc3917654ef1ba4abc99b0"
+    },
+    {
+      "file": "part-020.json",
+      "rowCount": 100,
+      "bytes": 26073,
+      "sha256": "2f2c2571ae221c276c1f33b43692234ee6148b401a553f5b500f981d0996c55c"
+    },
+    {
+      "file": "part-021.json",
+      "rowCount": 100,
+      "bytes": 25906,
+      "sha256": "2ce9d73d2d50e8a33bf1f77a7b52b1c4e5093fdde5f4515139bac76bc35e1cc2"
+    },
+    {
+      "file": "part-022.json",
+      "rowCount": 100,
+      "bytes": 25515,
+      "sha256": "7dca433c35808c2e78551d13b2de66b04983f82fd0121c74d7a6171e08d2cbde"
+    },
+    {
+      "file": "part-023.json",
+      "rowCount": 100,
+      "bytes": 25449,
+      "sha256": "e70161027fc9a269e7951bd1b1443579f80f3a826023ba7f22d0a34f1d9d1b7a"
+    },
+    {
+      "file": "part-024.json",
+      "rowCount": 100,
+      "bytes": 25531,
+      "sha256": "cca1e9bfc6ff8dc9c27eff8f24fdfa9b5bb9c5ae582145ce9bf419ad9f71003d"
+    },
+    {
+      "file": "part-025.json",
+      "rowCount": 100,
+      "bytes": 25612,
+      "sha256": "35a69f5adf7673cf31d1fea9f6ca5196ddff760bcc4a229f2e4142f73a41666b"
+    },
+    {
+      "file": "part-026.json",
+      "rowCount": 100,
+      "bytes": 25605,
+      "sha256": "41ce746475a7f95607d503670f139584b3c659fd6021c4427fc7399406266298"
+    },
+    {
+      "file": "part-027.json",
+      "rowCount": 100,
+      "bytes": 26393,
+      "sha256": "f2c26842e3fe7dff96523cc5d4c9fe2415195a61764553b0ec27ff275a96b4db"
+    },
+    {
+      "file": "part-028.json",
+      "rowCount": 100,
+      "bytes": 26421,
+      "sha256": "9af2ed2eba552ccecf4ea3a39428b5cf509edc0ba56483c77512452bd415be6c"
+    },
+    {
+      "file": "part-029.json",
+      "rowCount": 100,
+      "bytes": 26941,
+      "sha256": "d348e104112ec416a73790fa53c0189874209a9e6ff47a45f19c6333d722d71c"
+    },
+    {
+      "file": "part-030.json",
+      "rowCount": 100,
+      "bytes": 27264,
+      "sha256": "1fdf606e62cb30b1b612a39671236d89b91505ab35caab33f0748503e1e1966f"
+    },
+    {
+      "file": "part-031.json",
+      "rowCount": 100,
+      "bytes": 27508,
+      "sha256": "efee0d69a0b44b3d98a380f1903acc6b5cf93285a0b94302c8bd503f98e50cbe"
+    },
+    {
+      "file": "part-032.json",
+      "rowCount": 100,
+      "bytes": 28934,
+      "sha256": "fc8f56a51533343a8ca25045973ade141892319f324e0530211a568faa20eea2"
+    },
+    {
+      "file": "part-033.json",
+      "rowCount": 100,
+      "bytes": 25828,
+      "sha256": "33bd22a19ec536ac687b6bf1d1f5faf5c94cb599b7d000ba8968d39f7725a147"
+    },
+    {
+      "file": "part-034.json",
+      "rowCount": 100,
+      "bytes": 25342,
+      "sha256": "07e3a55d91fa701766267c90471ff73cdd8ea9e2a82a6d9db6856fa288586adb"
+    },
+    {
+      "file": "part-035.json",
+      "rowCount": 100,
+      "bytes": 25304,
+      "sha256": "9b986fb64de80ebbf1a99e9b0ccfe5b0126026912e72222a3f039db10448822c"
+    },
+    {
+      "file": "part-036.json",
+      "rowCount": 100,
+      "bytes": 25462,
+      "sha256": "127abab86a7dab370ff09df120331c3b02b86a2437900951c7f1f680f553e45d"
+    },
+    {
+      "file": "part-037.json",
+      "rowCount": 100,
+      "bytes": 25358,
+      "sha256": "c8576007027de32f0c4cc5060f6e33e80c05e40d26a8b37efb191ae3e882a901"
+    },
+    {
+      "file": "part-038.json",
+      "rowCount": 100,
+      "bytes": 25529,
+      "sha256": "f087fd05dd12ad31d1796ddaac6601dd518b9b75bfdfc5f0773091e093299c5c"
+    },
+    {
+      "file": "part-039.json",
+      "rowCount": 100,
+      "bytes": 25222,
+      "sha256": "fe5eaeb8977cbee4e85f08508839b8a8b7a1125ae57c132c791c70327c8b7da1"
+    },
+    {
+      "file": "part-040.json",
+      "rowCount": 100,
+      "bytes": 25517,
+      "sha256": "331244cc6999eff0d9557f64d1546adefd21c3ed84c351642e4a505c59d94ed1"
+    },
+    {
+      "file": "part-041.json",
+      "rowCount": 100,
+      "bytes": 26406,
+      "sha256": "ea7245aa6bf994b88ac6f307ac1be386d08d1a395697bbba305398cabbccd317"
+    },
+    {
+      "file": "part-042.json",
+      "rowCount": 100,
+      "bytes": 27954,
+      "sha256": "28656a907a9b72f8ea6013deea010b8388300b9296aff70edcbb7794aea58de1"
+    },
+    {
+      "file": "part-043.json",
+      "rowCount": 100,
+      "bytes": 28135,
+      "sha256": "591003605584bdf2c8aa1cf4129787ebd5694ef56c2aaf103d4ea994c31ce7cc"
+    },
+    {
+      "file": "part-044.json",
+      "rowCount": 67,
+      "bytes": 18667,
+      "sha256": "c042f2b40516c8dd4f47c94b6eb8fe5ff7b2775368cdfbd87b2a00f508ec487f"
+    }
+  ],
+  "transformations": [
+    "Only the stated identifier/name/state/qualifier/GPS DEG columns retained",
+    "Original cell strings preserved, including hemisphere markers and decimal commas",
+    "No coordinate conversion, station matching or active-state filtering yet"
+  ],
+  "coordinatesImported": false,
+  "productionDataChanged": false,
+  "apkChanged": false
+}

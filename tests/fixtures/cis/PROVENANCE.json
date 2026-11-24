@@ -1,0 +1,48 @@
+{
+  "source": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/2026-10/PA_0054_--KADR218357_01_2026.xml.zip",
+  "sha256": "4bad8213699821cedb620a6f69984fe7a179e916347f0670c93b9f3f14bcd7d8",
+  "bytes": 3375,
+  "container": "gzip",
+  "observedAt": "2026-10-26",
+  "purpose": "Original official source, retained solely for importer regression tests; never publish as application timetable data.",
+  "additionalFixtures": [
+    {
+      "file": "PA_0054_--KADR076655_01_2026.xml.zip",
+      "source": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/2025-12/PA_0054_--KADR076655_01_2026.xml.zip",
+      "sha256": "6a83890ef318d7869e4c13dcf93ce07756ca53a44eb520e42a4660ba7133f378",
+      "bytes": 4504,
+      "observedAt": "2026-10-26",
+      "purpose": "Original source with ten departure-track annotations, DJR_CIS section 5.2. Regression only, not application timetable data."
+    },
+    {
+      "file": "PA_0054_--KADR112429_01_2026.xml.zip",
+      "url": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/2026-03/PA_0054_--KADR112429_01_2026.xml.zip",
+      "sha256": "ca8f81a84fc5d5a132aa5f6b7236d43926788fca3cc6268981f83dbaf2dc872c",
+      "bytes": 1985,
+      "purpose": "Original countertime / replacement transport / departure track source profile",
+      "downloadVerifiedAt": "2026-10-26T23:17:10.101539+00:00"
+    },
+    {
+      "file": "PA_0054_--KADR272587_01_2026.xml.zip",
+      "url": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/2026-07/PA_0054_--KADR272587_01_2026.xml.zip",
+      "sha256": "dc9df08118b96a8dd33fc540ef00a60abaeb6b20bc3d24601f72a993f7f3d47c",
+      "bytes": 1950,
+      "purpose": "Original countertime / replacement transport / departure track source profile",
+      "downloadVerifiedAt": "2026-10-26T23:03:15.080543+00:00"
+    },
+    {
+      "file": "PA_0054_--KADR378436_01_2026.xml.zip",
+      "url": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/2026-10/PA_0054_--KADR378436_01_2026.xml.zip",
+      "sha256": "cb4220e62b436622cb52690be4dd528792c90cc2e53a3df6a535c521f87898fe",
+      "bytes": 3031,
+      "purpose": "Original unpublished timing-point regression; public stop times remain unchanged"
+    },
+    {
+      "file": "PA_0054_--KADR255387_02_2026.xml.zip",
+      "url": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/2026-06/PA_0054_--KADR255387_02_2026.xml.zip",
+      "sha256": "320944b1e940be0baa99e91c2a0290fc921afe4a2199438e1452b58b515b3f97",
+      "bytes": 2078,
+      "purpose": "Original unpublished timing-point regression; public stop times remain unchanged"
+    }
+  ]
+}

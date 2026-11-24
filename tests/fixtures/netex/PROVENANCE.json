@@ -1,0 +1,95 @@
+{
+  "observedAt": "2026-10-26",
+  "files": [
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-108_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-108_20261023.xml",
+      "xmlSha256": "b52142933bc249765ac4ab4e35241278c67ce375af82faaead73b4e3a3f5ac8f",
+      "fixtureSha256": "47b99415f7fc3b5c2cb9322a5ab8e1428d03647afdc482a0ffd0e3107793e8cb",
+      "sourceLineCode": "915002",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-191_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-191_20261023.xml",
+      "xmlSha256": "c7b06ae8be151ef68dfa04a7d1fafb045ac40c76f50964b13930bacf509aca2e",
+      "fixtureSha256": "1d3868d0e0235b6320e946c4f04470416131b1883fd26a098657780f6d595797",
+      "sourceLineCode": "915109",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-357_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-357_20261023.xml",
+      "xmlSha256": "317364bd734bdabad5293648a1f0c5a7f262a21ca3f3488444e4610420c34c37",
+      "fixtureSha256": "aa6d5c18891535bc8501aed67befe2032d28dea7fb4e0a20e06346488ef89b69",
+      "sourceLineCode": "915107",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-679_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-679_20261023.xml",
+      "xmlSha256": "b4838fceae5ad44418f903488ed988b98be9ff0478f145e160be1245dfbf74ef",
+      "fixtureSha256": "a3123974eca1d431bcbbd64a95adc3cf0109dd6c201fdf27f500f63a51b592e0",
+      "sourceLineCode": "915109",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-74_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-74_20261023.xml",
+      "xmlSha256": "30cc83e27acc63311e18404a6702dc4fb665df88436fac15a3837714f33929bf",
+      "fixtureSha256": "0e98b24fd6b082c21267ba3462cc25a3cd1fc6051b8df89ae70048f64e258098",
+      "sourceLineCode": "915101",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-814_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-814_20261023.xml",
+      "xmlSha256": "ca158c7f5a38fe1d37019a1ffe83b2f902ebf69e76c03fd5634227be0488c5c5",
+      "fixtureSha256": "9809fa99df02e53dd4ccdc2629fd518f4a873ff93259e7233e51e03a130579ab",
+      "sourceLineCode": "915107",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-10191_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_VerejnaLinkovaDoprava.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-10191_20261023.xml",
+      "xmlSha256": "6123b2e6640c9938d86a8ef1389702821d9a4ae8156cf2691b936d318c578d7e",
+      "fixtureSha256": "1c005daddf07d59aa0b7beafda7f7bd0018badd6a1a9a7d0a4e70d257154248b",
+      "sourceLineCode": "915046",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-3022_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_VerejnaLinkovaDoprava.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-3022_20261023.xml",
+      "xmlSha256": "6eb04c26d7c3f54c22c047019cc1082fb573cb5ec1790af55cd9c110243a9c42",
+      "fixtureSha256": "64428ec0abb95d8ca205d775b7fd8ef233442ebe93dee8674c8edb943bef6906",
+      "sourceLineCode": "915076",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-3275_20261023.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_VerejnaLinkovaDoprava.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-3275_20261023.xml",
+      "xmlSha256": "7c178a4e39dcc1650b441064cb43acd024e34cf42475c96f4705434ef2c3980c",
+      "fixtureSha256": "009ff8364be1b426f877947d4dabc54769dcb684d76c5b4feb3c210c3b627ba7",
+      "sourceLineCode": "915076",
+      "purpose": "Original source XML, compressed verbatim for regression tests; not application timetable data."
+    },
+    {
+      "file": "NX-PI-01_CZ_CISJR-JDF_LINE-11297_20261026.xml.gz",
+      "sourceArchive": "https://portal.cisjr.cz/pub/netex/NeTEx_VerejnaLinkovaDoprava.zip",
+      "member": "NX-PI-01_CZ_CISJR-JDF_LINE-11297_20261026.xml",
+      "xmlSha256": "9f5098f384325683e9dcf12b55d5d9d5428bf9700b9dfe15f4636ac7b287e5ea",
+      "fixtureSha256": "f3c32a0d0b8a013ad85fa8f6a4899ee9b68b7ac2c00f1f76d7dee017eaab1c12",
+      "sourceLineCode": "915037",
+      "purpose": "Original source XML, compressed verbatim; exact ordered platform/coordinate matching regressions, not application timetable data."
+    }
+  ]
+}

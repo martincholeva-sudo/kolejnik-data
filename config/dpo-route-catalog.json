@@ -1,0 +1,430 @@
+{
+  "schema": 1,
+  "operatorIco": "61974757",
+  "checkedAt": "2026-10-26",
+  "validFrom": "2026-09-01",
+  "validUntil": "2026-12-12",
+  "note": "CIS reports bus for all current DPO lines. Standard public numbers are matched to the official DPO tram/trolleybus/bus lists. AE is the airport service; 915201 retains the exact source code because no public alias is verified. This classifies vehicles, not walking transfers.",
+  "routes": {
+    "915001": {
+      "label": "1",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915002": {
+      "label": "2",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915003": {
+      "label": "3",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915004": {
+      "label": "4",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915005": {
+      "label": "5",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915007": {
+      "label": "7",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915008": {
+      "label": "8",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915010": {
+      "label": "10",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915011": {
+      "label": "11",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915012": {
+      "label": "12",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915013": {
+      "label": "13",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915014": {
+      "label": "14",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915015": {
+      "label": "15",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915017": {
+      "label": "17",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915018": {
+      "label": "18",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915019": {
+      "label": "19",
+      "routeType": 0,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-tram.html"
+    },
+    "915021": {
+      "label": "21",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915022": {
+      "label": "22",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915023": {
+      "label": "23",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915024": {
+      "label": "24",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915025": {
+      "label": "25",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915026": {
+      "label": "26",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915027": {
+      "label": "27",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915028": {
+      "label": "28",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915029": {
+      "label": "29",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915030": {
+      "label": "30",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915031": {
+      "label": "31",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915032": {
+      "label": "32",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915033": {
+      "label": "33",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915034": {
+      "label": "34",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915035": {
+      "label": "35",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915037": {
+      "label": "37",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915038": {
+      "label": "38",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915039": {
+      "label": "39",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915040": {
+      "label": "40",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915041": {
+      "label": "41",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915043": {
+      "label": "43",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915044": {
+      "label": "44",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915045": {
+      "label": "45",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915046": {
+      "label": "46",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915047": {
+      "label": "47",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915048": {
+      "label": "48",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915049": {
+      "label": "49",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915050": {
+      "label": "50",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915052": {
+      "label": "52",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915054": {
+      "label": "54",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915055": {
+      "label": "55",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915056": {
+      "label": "56",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915057": {
+      "label": "57",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915058": {
+      "label": "58",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915059": {
+      "label": "59",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915061": {
+      "label": "61",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915062": {
+      "label": "62",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915064": {
+      "label": "64",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915067": {
+      "label": "67",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915068": {
+      "label": "68",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915071": {
+      "label": "71",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915072": {
+      "label": "72",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915073": {
+      "label": "73",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915074": {
+      "label": "74",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915076": {
+      "label": "76",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915077": {
+      "label": "77",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915078": {
+      "label": "78",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915079": {
+      "label": "79",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915081": {
+      "label": "81",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915083": {
+      "label": "AE",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915092": {
+      "label": "92",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915096": {
+      "label": "96",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915097": {
+      "label": "97",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915098": {
+      "label": "98",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915099": {
+      "label": "99",
+      "routeType": 3,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-bus.html"
+    },
+    "915101": {
+      "label": "101",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915102": {
+      "label": "102",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915103": {
+      "label": "103",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915104": {
+      "label": "104",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915105": {
+      "label": "105",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915106": {
+      "label": "106",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915107": {
+      "label": "107",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915108": {
+      "label": "108",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915109": {
+      "label": "109",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915111": {
+      "label": "111",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915112": {
+      "label": "112",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915113": {
+      "label": "113",
+      "routeType": 11,
+      "evidence": "https://www.dpo.cz/jizdni-rady/jr-trol.html"
+    },
+    "915201": {
+      "label": "915201",
+      "routeType": 3,
+      "evidence": "https://portal.cisjr.cz/pub/netex/NeTEx_VerejnaLinkovaDoprava.zip"
+    }
+  }
+}

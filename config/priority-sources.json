@@ -1,0 +1,39 @@
+{
+  "scope": "cz-rail-ostrava",
+  "priority": [
+    "public passenger rail of every carrier present in CIS",
+    "DPO trams",
+    "DPO buses",
+    "DPO trolleybuses"
+  ],
+  "rail": {
+    "format": "DJR_CIS XML 1.09.06",
+    "directory": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/",
+    "base": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/2026/JR2026.zip",
+    "updates": "All listed timetable-year update directories through the selected period",
+    "documentation": "https://portal.cisjr.cz/pub/draha/celostatni/szdc/Popis%20DJ%C5%98_CIS_v1_09_06.pdf",
+    "carrierFilter": null
+  },
+  "ostrava": {
+    "operatorIco": "61974757",
+    "operatorName": "Dopravní podnik Ostrava a.s.",
+    "format": "CIS NeTEx EPIP",
+    "archives": [
+      "https://portal.cisjr.cz/pub/netex/NeTEx_DrahyMestske.zip",
+      "https://portal.cisjr.cz/pub/netex/NeTEx_VerejnaLinkovaDoprava.zip"
+    ],
+    "documentation": "https://portal.cisjr.cz/pub/netex/CISJR_NeTEx.pdf",
+    "directDpoRollingGtfsFeedVerified": false,
+    "contextSource": "https://www.dpo.cz/soubory/spolecnost/povinne/2025/2025-09.pdf"
+  },
+  "pid": {
+    "url": "https://data.pid.cz/PID_GTFS.zip",
+    "role": "Retain metro, trams, buses and trolleybuses; replace overlapping rail only in the isolated combined candidate"
+  },
+  "realtime": {
+    "rail": "not-connected",
+    "ostrava": "not-connected",
+    "matchingPolicy": "Never infer a provider trip from its displayed number/name; explicit dated identifier mapping is required"
+  },
+  "productionEnabled": false
+}

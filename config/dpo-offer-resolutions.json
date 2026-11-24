@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-26",
+  "productionReady": false,
+  "referenceCheckCompleteness": "selected_departures_only",
+  "note": "Bounded candidate-only resolution of conflicting complete line offers by comparison with the official DPO timetable. Selection of the complete matching offer is an inference from the listed reference departures, not verification of every stop/time. Changed source semantics require re-verification.",
+  "offers": [
+    {
+      "lineCode": "915107",
+      "from": "2026-09-01",
+      "to": "2026-12-12",
+      "preferredDocument": "357",
+      "evidence": "https://www.dpo.cz/jr/2026-09-01/107_2026-09-01.pdf",
+      "references": [
+        {
+          "sourceJourney": "915107__157",
+          "stop": "Ostrava,Hranečník",
+          "departure": "05:40:00",
+          "dayType": "weekend",
+          "page": 2
+        },
+        {
+          "sourceJourney": "915107__160",
+          "stop": "Ostrava,Mor.Ostrava,sídliště Fifejdy",
+          "departure": "05:55:00",
+          "dayType": "weekend",
+          "page": 4
+        }
+      ],
+      "semanticSha256": {
+        "357": "e43b70463a92ddcafa762b7882043faa6436c74d01f197ec7a2e3471300df3df",
+        "814": "259b9710568da22580cbb31c61067ad88d407c9d3bd1170b839d2476db9fc4c5"
+      }
+    },
+    {
+      "lineCode": "915076",
+      "from": "2026-09-01",
+      "to": "2026-12-12",
+      "preferredDocument": "3275",
+      "evidence": "https://www.dpo.cz/jr/2026-09-01/076_2026-09-01.pdf",
+      "references": [
+        {
+          "sourceJourney": "915076__68",
+          "stop": "Klimkovice,Hýlov,Sanatoria",
+          "departure": "07:09:00",
+          "dayType": "weekend",
+          "page": 2
+        }
+      ],
+      "semanticSha256": {
+        "3022": "f8233d3046be03afa910485dd1098f61b699af6fe54ccf746a9163aca972c1ee",
+        "3275": "03b8fc2b8bb23f1dccd738cc103fe62c869aeaf0cb716e91b884d8598c60c927"
+      }
+    }
+  ]
+}

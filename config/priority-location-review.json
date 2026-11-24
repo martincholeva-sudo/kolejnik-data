@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "line": "37",
+  "operator": "cz:DPO",
+  "reviewedFrom": "2026-10-26",
+  "reviewedUntil": "2026-11-03",
+  "sourceTimeCollectionDate": "2026-10-26",
+  "method": "Explicit reviewed names plus complete contiguous ordered pattern alignment; no fuzzy station/platform matching",
+  "operatorTimetable": "https://www.dpo.cz/jr/2026-09-01/037_2026-09-01.pdf",
+  "osmRouteCheckDate": "2025-04-23",
+  "currentOperatorPlatformPlan": "https://www.dpo.cz/soubory/jr/stan-mhd-svinov-nadrazi-2026-10-20.jpg",
+  "nameAliases": {
+    "Ostrava,Mor.Ostrava,Náměstí Republiky": "Náměstí Republiky",
+    "Ostrava,Mor.Ostrava,pivovar": "Mor.Ostrava,pivovar",
+    "Ostrava,Mor.Ostrava,Hornopolní": "Hornopolní",
+    "Ostrava,Mor.Ostrava,Lechowiczova": "Lechowiczova",
+    "Ostrava,Mor.Ostrava,Ahepjukova": "Ahepjukova",
+    "Ostrava,Mar.Hory,Jiřího Trnky": "Jiřího Trnky",
+    "Ostrava,Mar.Hory,Strmá": "Strmá",
+    "Ostrava,Mar.Hory,Mariánskohorská": "Mariánskohorská",
+    "Ostrava,Nová Ves,vodárna": "Nová Ves,vodárna",
+    "Ostrava,Nová Ves": "Nová Ves",
+    "Ostrava,Svinov,mosty": "Svinov mosty",
+    "Ostrava,Svinov,nádraží": "Svinov,nádraží",
+    "Ostrava,Svinov,škola": "Svinov,škola",
+    "Ostrava,Svinov,náměstí": "Svinov,náměstí",
+    "Ostrava,Svinov,Malá strana": "Malá Strana",
+    "Ostrava,Poruba,Bytostav": "Bytostav",
+    "Ostrava,Poruba,Dělnická": "Dělnická",
+    "Ostrava,Poruba,Nábřeží SPB": "Nábřeží SPB",
+    "Ostrava,Poruba,náměstí B.Němcové": "Náměstí B. Němcové",
+    "Ostrava,Poruba,Domov sester": "Domov sester",
+    "Ostrava,Poruba,Pod nemocnicí": "Pod Nemocnicí",
+    "Ostrava,Poruba,K Myslivně": "K Myslivně",
+    "Ostrava,Poruba,Studentská": "Poruba,Studentská",
+    "Ostrava,Poruba,Studentské koleje": "Poruba,Studentské koleje",
+    "Ostrava,Mor.Ostrava,Českobratrská": "Českobratrská",
+    "Ostrava,Mor.Ostrava,Městská nemocnice": "Městská nemocnice"
+  },
+  "patterns": [
+    {
+      "patternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+      "patternSha256": "2ab55a22e2f12af5a7b6c7e77ef1d21b328f619cc0cfa9806b6c90e808633c60",
+      "osmRelation": 17657352
+    },
+    {
+      "patternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+      "patternSha256": "710b1de6fe174948d3dccc2fc2e4cea33b62511b7b5ea951db73f60d2d1c2e48",
+      "osmRelation": 3178080
+    },
+    {
+      "patternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:3_in",
+      "patternSha256": "8485bada2c835fab52e94d5f239ed6ddf84c9b7f2b60195740b8c34b9beb6976",
+      "osmRelation": 3178080
+    },
+    {
+      "patternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:4_out",
+      "patternSha256": "79a734f95a9b79e8168176136a4537af67059bdd563f9206da6f1063d702feec",
+      "osmRelation": 17657352
+    },
+    {
+      "patternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:5_in",
+      "patternSha256": "5bc4bd5688a583253ae3da06bf6c055c46b40a2f2269872c9777bbc1cf80a25a",
+      "osmRelation": 3178080
+    },
+    {
+      "patternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:6_in",
+      "patternSha256": "92c8c6d4208c9a1d3515f4138955320e8fc9b70b859f20f817b17c14590092b0",
+      "osmRelation": 3178080
+    }
+  ],
+  "railStations": [
+    {
+      "stopId": "czrail:CZ:57076",
+      "sourceName": "Praha hl. n.",
+      "osmObject": "node:3134751791",
+      "osmName": "Praha hlavní nádraží"
+    },
+    {
+      "stopId": "czrail:CZ:34194",
+      "sourceName": "Opava východ",
+      "osmObject": "node:5648147239",
+      "osmName": "Opava východ"
+    },
+    {
+      "stopId": "czrail:CZ:34362",
+      "sourceName": "Olomouc hl. n.",
+      "osmObject": "node:2506544888",
+      "osmName": "Olomouc hlavní nádraží"
+    },
+    {
+      "stopId": "czrail:CZ:34434",
+      "sourceName": "Ostrava-Svinov",
+      "osmObject": "node:3268545280",
+      "osmName": "Ostrava-Svinov"
+    }
+  ]
+}

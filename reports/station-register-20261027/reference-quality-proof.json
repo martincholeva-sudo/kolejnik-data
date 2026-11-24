@@ -1,0 +1,13 @@
+{
+  "sourceSha256": "81bfbb9cc36c6a8930725d2ffd1b7764183e3bf1285217710a6b6fb94d0bf69c",
+  "sourceRows": 4367,
+  "allRecordCheckDigitsValid": true,
+  "primaryIdentitiesUnique": true,
+  "activeStationOrHaltReferenceRows": 2859,
+  "allCandidateGpsValuesParsed": true,
+  "passengerServicesEstablishedByRegisterAlone": false,
+  "bindingToFullCisCollectionVerified": false,
+  "walkingConnectionsAdded": 0,
+  "coordinatesActivatedInProduction": false,
+  "apkChanged": false
+}

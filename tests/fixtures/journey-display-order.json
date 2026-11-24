@@ -1,0 +1,237 @@
+[
+  {
+    "name": "same departure prefers earlier arrival",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "slow",
+        "departure": 100,
+        "arrival": 500,
+        "transfers": 1,
+        "legs": []
+      },
+      {
+        "id": "fast",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 2,
+        "legs": []
+      }
+    ],
+    "expected": [
+      "fast",
+      "slow"
+    ]
+  },
+  {
+    "name": "same arrival prefers later departure",
+    "reverse": true,
+    "journeys": [
+      {
+        "id": "early",
+        "departure": 100,
+        "arrival": 500,
+        "transfers": 1,
+        "legs": []
+      },
+      {
+        "id": "late",
+        "departure": 200,
+        "arrival": 500,
+        "transfers": 2,
+        "legs": []
+      }
+    ],
+    "expected": [
+      "late",
+      "early"
+    ]
+  },
+  {
+    "name": "chronology remains primary",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "later",
+        "departure": 200,
+        "arrival": 400,
+        "recommended": true,
+        "transfers": 0,
+        "legs": []
+      },
+      {
+        "id": "earlier",
+        "departure": 100,
+        "arrival": 800,
+        "recommended": false,
+        "transfers": 2,
+        "legs": []
+      }
+    ],
+    "expected": [
+      "earlier",
+      "later"
+    ]
+  },
+  {
+    "name": "explicit preference remains primary",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "ordinary",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 0,
+        "legs": []
+      },
+      {
+        "id": "preferred",
+        "preferred": true,
+        "departure": 200,
+        "arrival": 500,
+        "transfers": 0,
+        "legs": []
+      }
+    ],
+    "expected": [
+      "preferred",
+      "ordinary"
+    ]
+  },
+  {
+    "name": "recommendation breaks same-departure tie",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "faster",
+        "departure": 100,
+        "arrival": 400,
+        "recommended": false,
+        "transfers": 2,
+        "legs": []
+      },
+      {
+        "id": "simpler",
+        "departure": 100,
+        "arrival": 500,
+        "recommended": true,
+        "transfers": 0,
+        "legs": []
+      }
+    ],
+    "expected": [
+      "simpler",
+      "faster"
+    ]
+  },
+  {
+    "name": "fewer transfers breaks a time tie",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "many",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 2,
+        "legs": []
+      },
+      {
+        "id": "few",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 1,
+        "legs": []
+      }
+    ],
+    "expected": [
+      "few",
+      "many"
+    ]
+  },
+  {
+    "name": "shorter walk breaks a time and transfer tie",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "long",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 1,
+        "initialWalk": 60,
+        "legs": [
+          {},
+          {
+            "transferWalk": 150
+          }
+        ]
+      },
+      {
+        "id": "short",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 1,
+        "finalWalk": 90,
+        "legs": [
+          {},
+          {
+            "transferWalk": 20
+          }
+        ]
+      }
+    ],
+    "expected": [
+      "short",
+      "long"
+    ]
+  },
+  {
+    "name": "source identity resolves otherwise identical ties",
+    "reverse": false,
+    "journeys": [
+      {
+        "id": "b",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 0,
+        "legs": [
+          {
+            "serviceDate": "2026-10-28",
+            "tripId": "b",
+            "from": {
+              "id": "1"
+            },
+            "to": {
+              "id": "2"
+            },
+            "fromSequence": 1,
+            "toSequence": 2
+          }
+        ]
+      },
+      {
+        "id": "a",
+        "departure": 100,
+        "arrival": 400,
+        "transfers": 0,
+        "legs": [
+          {
+            "serviceDate": "2026-10-28",
+            "tripId": "a",
+            "from": {
+              "id": "1"
+            },
+            "to": {
+              "id": "2"
+            },
+            "fromSequence": 1,
+            "toSequence": 2
+          }
+        ]
+      }
+    ],
+    "expected": [
+      "a",
+      "b"
+    ]
+  }
+]

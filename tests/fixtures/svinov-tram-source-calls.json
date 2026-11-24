@@ -1,0 +1,1342 @@
+{
+  "sourceSnapshotSha256": "5afd4b9ba38afd7a0ca120f1cd574a18bb7b5d61d16d39936a264a60e60e0b7c",
+  "sourceStart": "2026-10-26",
+  "sourceEnd": "2026-11-03",
+  "provenance": "Exact public CIS stop rows and adjacent calls from the retained full DPO export; no invented trips or times.",
+  "calls": [
+    {
+      "stop": {
+        "id": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:ScheduledStopPoint:915019__20:call:c13fa628c46f08f79a05",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:StopPlace:3",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:ScheduledStopPoint:915019__20",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915019__20",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:3",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_20",
+          "patternSha256": "03dcf4f53c11dffd8caf49906d793fa71b8ac1545ba4f6e940caf016af795e23"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "19",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "03dcf4f53c11dffd8caf49906d793fa71b8ac1545ba4f6e940caf016af795e23"
+    },
+    {
+      "stop": {
+        "id": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:ScheduledStopPoint:915019__20:call:c64b4468b22b16c38766",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:StopPlace:3",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:ScheduledStopPoint:915019__20",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915019__20",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:3",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_20",
+          "patternSha256": "1427355c120708a6356ce967b926c3543d5a6517915f942796f103f663a9f4b7"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "19",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "1427355c120708a6356ce967b926c3543d5a6517915f942796f103f663a9f4b7"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:1f1222cf59fdfb38303d",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:5_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:5_out_10",
+          "patternSha256": "40d0e532efd18406653e468db4b0d509156bd97ca259fc93d9e63a3a35d577ec"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "40d0e532efd18406653e468db4b0d509156bd97ca259fc93d9e63a3a35d577ec"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:38dd565bf53b04c62d36",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:6_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:6_out_10",
+          "patternSha256": "b9f5422e20806d94c7d0807754034db831be1b81992e50ec3382a50b2aca1601"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "b9f5422e20806d94c7d0807754034db831be1b81992e50ec3382a50b2aca1601"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:4182c76ba567576b5302",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:8_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:8_in_10",
+          "patternSha256": "adb77be8bae46c46c3ac33d7fb1a704426b06857a0da94694b7d5d27244080d4"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "adb77be8bae46c46c3ac33d7fb1a704426b06857a0da94694b7d5d27244080d4"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:62d2a5a39ae32f6d1f95",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:9_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:9_out_10",
+          "patternSha256": "5a28dbac55ac1bcc0b5e684405f9bd012bdbcfe08f1dcb167fa705d04c610300"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "5a28dbac55ac1bcc0b5e684405f9bd012bdbcfe08f1dcb167fa705d04c610300"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:955d0164d433c1396b08",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_10",
+          "patternSha256": "56acca9557bedb6ea30a302e8084e66c53f73b4cd93c2c1ccd7c3700ed2a00d7"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "56acca9557bedb6ea30a302e8084e66c53f73b4cd93c2c1ccd7c3700ed2a00d7"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:a2e9a8b054ef630bd141",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:11_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:11_out_10",
+          "patternSha256": "653b9c509ecde2758cffe8d8dd253176cdcbea6a646f047c6ccf35373d50b42a"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "653b9c509ecde2758cffe8d8dd253176cdcbea6a646f047c6ccf35373d50b42a"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:a9bae1b54e3e882af7f3",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:13_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:13_in_10",
+          "patternSha256": "618c96230f7574606db0269305afe90324bb4df15996fd50847ae3bc02e4a453"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "618c96230f7574606db0269305afe90324bb4df15996fd50847ae3bc02e4a453"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:aa3cc531397be3c4fed5",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_10",
+          "patternSha256": "ac8ce2a49ee24fe344a6fd4eee1264ec3649d63380e321b8cb3cac24aa1326e9"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "ac8ce2a49ee24fe344a6fd4eee1264ec3649d63380e321b8cb3cac24aa1326e9"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:b5b1f9bc53bc5b01e3a0",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:7_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:7_out_10",
+          "patternSha256": "685f22fb1b5be7ae8e8e9cd8ccf29a5fb0c1c37f2de0daf50c93f56582ea837e"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "685f22fb1b5be7ae8e8e9cd8ccf29a5fb0c1c37f2de0daf50c93f56582ea837e"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:f3b1fdf9c904d9a8cdab",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:3_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:3_out_10",
+          "patternSha256": "da48d3420e4768cf83ade408f97daed33be3543d04db6d14808e9584ce44585b"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "da48d3420e4768cf83ade408f97daed33be3543d04db6d14808e9584ce44585b"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:f6c94dfc7f41a7b1132a",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:12_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:12_in_10",
+          "patternSha256": "b971fad4cbb6d5d75ab212bc260eb2cfcafebb110ac1d52ea30d43166f15820f"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "b971fad4cbb6d5d75ab212bc260eb2cfcafebb110ac1d52ea30d43166f15820f"
+    },
+    {
+      "stop": {
+        "id": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:fe59b4afe9a0187a9496",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915004__10",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:10_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:10_in_10",
+          "patternSha256": "5285b92472c7e4f50f657a376cc0d22f6f1f2c09de3e3cddf31e970fd424b783"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "4",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "5285b92472c7e4f50f657a376cc0d22f6f1f2c09de3e3cddf31e970fd424b783"
+    },
+    {
+      "stop": {
+        "id": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:2f91a55bd70f8d05e61c",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:StopPlace:2",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:2",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:3_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:3_out_5",
+          "patternSha256": "a2b87fa064cd488ff6942dc483f3251344deacb667bdeb345cfe06d6cd32c310"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "11",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "a2b87fa064cd488ff6942dc483f3251344deacb667bdeb345cfe06d6cd32c310"
+    },
+    {
+      "stop": {
+        "id": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:6ac5c976199ab9826ba5",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:StopPlace:2",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:2",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_5",
+          "patternSha256": "5f0bdd39601cf0b9a2e23be89dbe8296dda25405f645bed2c2bd3e6c2237619d"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "11",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "5f0bdd39601cf0b9a2e23be89dbe8296dda25405f645bed2c2bd3e6c2237619d"
+    },
+    {
+      "stop": {
+        "id": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:a4105064240c7f019ac4",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:StopPlace:2",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:2",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_5",
+          "patternSha256": "556e06fe93c13d1984956fd94e7a455b607cb4406496533908a04526861c8815"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "11",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "556e06fe93c13d1984956fd94e7a455b607cb4406496533908a04526861c8815"
+    },
+    {
+      "stop": {
+        "id": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:ced836ecc57d0b07d392",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:StopPlace:2",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915011__5",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:2",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:4_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:4_in_5",
+          "patternSha256": "82ca5bad8274b7fa98f84a2389ea701c53abf00483b195771d4ee107032793f5"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "11",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "82ca5bad8274b7fa98f84a2389ea701c53abf00483b195771d4ee107032793f5"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:72aaabad154409cb7a08",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:3_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:3_in_21",
+          "patternSha256": "c75519d90c1a5bc5d51055281df9a5371ec094a1d52da1998f1a8653e4dc9910"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "c75519d90c1a5bc5d51055281df9a5371ec094a1d52da1998f1a8653e4dc9910"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:89b38345e3fe5703f5c8",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:6_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:6_in_21",
+          "patternSha256": "efed91bf356f81a408a3074e7391b4ddfa4ab8309b664e40ff295b4d43e4f02a"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "efed91bf356f81a408a3074e7391b4ddfa4ab8309b664e40ff295b4d43e4f02a"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:9ec9f699fd76860d2cdb",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_21",
+          "patternSha256": "ea3513f9fe13c65c61eff967fd0e2230bd087c6dc408cd4fbebee5af5ef1ba6f"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "ea3513f9fe13c65c61eff967fd0e2230bd087c6dc408cd4fbebee5af5ef1ba6f"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:b0b308d81c872f3a3f6f",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_21",
+          "patternSha256": "3c44a4ef0f8659e1dd4eaf648a2b222804d1f5cf485dc09c2c595e02c75758a6"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "3c44a4ef0f8659e1dd4eaf648a2b222804d1f5cf485dc09c2c595e02c75758a6"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:bb84eb0ce565a3124558",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:4_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:4_out_21",
+          "patternSha256": "19ef9d6afc6707527f0479cf43325b0070caecc395aea29ce15c992ec2993458"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "19ef9d6afc6707527f0479cf43325b0070caecc395aea29ce15c992ec2993458"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:dcbc715c183fb85a3f67",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:8_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:8_in_21",
+          "patternSha256": "f5fd6f09a136930a41ba534717faabd14a7f4f8d01cd90bb99c1c91009138f96"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "f5fd6f09a136930a41ba534717faabd14a7f4f8d01cd90bb99c1c91009138f96"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:f83c064153f6bab0026c",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:5_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:5_out_21",
+          "patternSha256": "2be3ba0bf54d7295cf581d2ad0a5332b3b4468450cbf6e55ef90a35872bede8e"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "2be3ba0bf54d7295cf581d2ad0a5332b3b4468450cbf6e55ef90a35872bede8e"
+    },
+    {
+      "stop": {
+        "id": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:fb7f309467a6829f963d",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:StopPlace:8",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915008__21",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:8",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:7_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:7_out_21",
+          "patternSha256": "1127f33cffb6303f9df02f77bd8fe2247566d4a203756e266a66b22bbff4adaf"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "8",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "1127f33cffb6303f9df02f77bd8fe2247566d4a203756e266a66b22bbff4adaf"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:0da1a1f906023ad2478f",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_9",
+          "patternSha256": "176615fe740e4d1d94c1a80e09db45e1db1faa6db7301734228257426f34b4ea"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "176615fe740e4d1d94c1a80e09db45e1db1faa6db7301734228257426f34b4ea"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:4518019527cfe659fc09",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:5_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:5_out_9",
+          "patternSha256": "f43b0aa821dc473484df02cac018f92fdf408c4bb42252eba5cca34c6cc74849"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "f43b0aa821dc473484df02cac018f92fdf408c4bb42252eba5cca34c6cc74849"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:72b0ccf5b911118370cd",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:4_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:4_in_9",
+          "patternSha256": "7c3716df51a4770a77e889f1cf2772764846f27da66f585e5bb2565e48dde8a5"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "7c3716df51a4770a77e889f1cf2772764846f27da66f585e5bb2565e48dde8a5"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:7841552c970bfc4182eb",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:8_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:8_out_9",
+          "patternSha256": "f90300b8ffec9af4f17076c602b9e0158270311c6341046dac861884987a49d2"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "f90300b8ffec9af4f17076c602b9e0158270311c6341046dac861884987a49d2"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:8c3750f03caa813f9e58",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:3_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:3_out_9",
+          "patternSha256": "9a80757da07ead6e93055f4437f1ed92090ec3895687962a1002c1dbc0e45ae3"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "9a80757da07ead6e93055f4437f1ed92090ec3895687962a1002c1dbc0e45ae3"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:9f97088ac9ca1adfa162",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:6_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:6_out_9",
+          "patternSha256": "df184453c2d23a1695e4e7514003f89030d5f98dbecc1c158c78d629914b583c"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "df184453c2d23a1695e4e7514003f89030d5f98dbecc1c158c78d629914b583c"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:c6dda3421e2efa9a9ac0",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:7_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:7_in_9",
+          "patternSha256": "e0baf9276a4224623430cf63e3a07cdc2146949786f777d7c0651b6ebda7fccc"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "e0baf9276a4224623430cf63e3a07cdc2146949786f777d7c0651b6ebda7fccc"
+    },
+    {
+      "stop": {
+        "id": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:cfc72c6c1cb95a8056e6",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915017__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_9",
+          "patternSha256": "cedb24e05d87f45f8d066fd6a4e9fd7de335702b9bfc3712cdc46ef4b838e5ac"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "17",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "cedb24e05d87f45f8d066fd6a4e9fd7de335702b9bfc3712cdc46ef4b838e5ac"
+    },
+    {
+      "stop": {
+        "id": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:ScheduledStopPoint:915003__5:call:5ea71dda4553201cd32d",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:StopPlace:3",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:ScheduledStopPoint:915003__5",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915003__5",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:3",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_5",
+          "patternSha256": "fd6eb891a9d714732108ab3314de8eb17165b86767ac27e7dcddca81024774f4"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "3",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "fd6eb891a9d714732108ab3314de8eb17165b86767ac27e7dcddca81024774f4"
+    },
+    {
+      "stop": {
+        "id": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:ScheduledStopPoint:915003__5:call:a6be06443330cb5cc250",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:StopPlace:3",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:ScheduledStopPoint:915003__5",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915003__5",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:3",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_5",
+          "patternSha256": "d3ca7d8ebf2073771c002895a494106b180e5b302e80900a8df55fc994fb2e0c"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "3",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "d3ca7d8ebf2073771c002895a494106b180e5b302e80900a8df55fc994fb2e0c"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:16eac52c04b08922f602",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:7_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:7_out_9",
+          "patternSha256": "9a9b035a3c8c5edfeaf92d8c3cb5fa6d0e6436b2bd2398943941913ef9bf3fe4"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "9a9b035a3c8c5edfeaf92d8c3cb5fa6d0e6436b2bd2398943941913ef9bf3fe4"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:25ceb030b58cce5a56f7",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:4_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:4_in_9",
+          "patternSha256": "c92e398b06ccc8d12bf08f44a5151290f02e3632c8d6bcb6c39539558ab3ed34"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "c92e398b06ccc8d12bf08f44a5151290f02e3632c8d6bcb6c39539558ab3ed34"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:3f8d4221b53c8535a2a3",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:2_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:2_in_9",
+          "patternSha256": "acaa81e8c8618dd412a49423bc84e1c6008c9813c0223ed3f292b99a11d326b6"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "acaa81e8c8618dd412a49423bc84e1c6008c9813c0223ed3f292b99a11d326b6"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:41a191b55c76b9ef5256",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:10_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:10_in_9",
+          "patternSha256": "50a335a6ee8a14448254957c891d4a964de04ed55d6c487dcc8da5098fc8d1bc"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "50a335a6ee8a14448254957c891d4a964de04ed55d6c487dcc8da5098fc8d1bc"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:57cdb7095d281e23beec",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:3_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:3_out_9",
+          "patternSha256": "8fe4af781e081ade85eaddb75889067572d6056d97f3516eac01d289965fd025"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "8fe4af781e081ade85eaddb75889067572d6056d97f3516eac01d289965fd025"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:6079e73e8f5b7f33500c",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:5_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:5_out_9",
+          "patternSha256": "d977d31a81d4e5df8283ebf742ee5ba04229a21cfc80cd62828291238e6be6ef"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "d977d31a81d4e5df8283ebf742ee5ba04229a21cfc80cd62828291238e6be6ef"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:681fa3d954257997e5b4",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:1_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:1_out_9",
+          "patternSha256": "9f2e2d90b34a5e41c6ee4e5f0e665def7bebff1df1faa2b768c3011b3eea699a"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "9f2e2d90b34a5e41c6ee4e5f0e665def7bebff1df1faa2b768c3011b3eea699a"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:6a017b6e18b8e12308f9",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:9_in",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:9_in_9",
+          "patternSha256": "2dfe3753c97036b923ed523788dc4c7ba19a97ab96464d6c20a7129bd3814d58"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Nová Ves,vodárna",
+      "nextName": "Ostrava,Třebovice,OC",
+      "platform": "H1",
+      "patternSha256": "2dfe3753c97036b923ed523788dc4c7ba19a97ab96464d6c20a7129bd3814d58"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:be9237ee3ffa922fc122",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:6_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:6_out_9",
+          "patternSha256": "97e50a52258f73e1553fe17c2e9c578bfeb99c667249481ff092c70fe8af6f72"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "97e50a52258f73e1553fe17c2e9c578bfeb99c667249481ff092c70fe8af6f72"
+    },
+    {
+      "stop": {
+        "id": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:f38481c22ad1d7e7047b",
+        "name": "Ostrava,Svinov,mosty",
+        "lat": 0,
+        "lon": 0,
+        "type": 0,
+        "parent": "",
+        "zone": "",
+        "platform": "",
+        "group": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:StopPlace:4",
+        "source": "cis-ostrava",
+        "coordinatesKnown": false,
+        "sourceStopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+        "sourceCall": {
+          "scheduledStopPointRef": "CZ:cisjr_jdf:ScheduledStopPoint:915007__9",
+          "stopPlaceRef": "CZ:cisjr_jdf:StopPlace:4",
+          "journeyPatternRef": "CZ:cisjr_jdf:ServiceJourneyPattern:8_out",
+          "pointInJourneyPatternRef": "CZ:cisjr_jdf:StopPointInJourneyPattern:8_out_9",
+          "patternSha256": "b25a343473ca99eaaa1a2bf2b28f30433a764098f1c816b33ae8cce4318faedd"
+        },
+        "physicalPlatformVerified": false
+      },
+      "line": "7",
+      "previousName": "Ostrava,Třebovice,OC",
+      "nextName": "Ostrava,Nová Ves,vodárna",
+      "platform": "H2",
+      "patternSha256": "b25a343473ca99eaaa1a2bf2b28f30433a764098f1c816b33ae8cce4318faedd"
+    }
+  ]
+}

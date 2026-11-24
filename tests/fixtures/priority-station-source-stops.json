@@ -1,0 +1,59 @@
+{
+  "sourceReceiptSha256": "4bc5224fb633e1a579feff133aa0f3b27533a55b90ea2e1da9b0a59eeb56871f",
+  "sourceExport": "strict rail-mode-separated export, retained CIS collection 2026-10-26",
+  "purpose": "Verbatim source station metadata for exact UIC/geography regressions, no timetable service claims",
+  "stops": [
+    {
+      "id": "czrail:CZ:34434",
+      "name": "Ostrava-Svinov",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": "",
+      "group": "czrail:CZ:34434",
+      "source": "cis-rail",
+      "coordinatesKnown": false
+    },
+    {
+      "id": "czrail:CZ:34362",
+      "name": "Olomouc hl. n.",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": "",
+      "group": "czrail:CZ:34362",
+      "source": "cis-rail",
+      "coordinatesKnown": false
+    },
+    {
+      "id": "czrail:CZ:57076",
+      "name": "Praha hl. n.",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": "",
+      "group": "czrail:CZ:57076",
+      "source": "cis-rail",
+      "coordinatesKnown": false
+    },
+    {
+      "id": "czrail:CZ:34194",
+      "name": "Opava východ",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": "",
+      "group": "czrail:CZ:34194",
+      "source": "cis-rail",
+      "coordinatesKnown": false
+    }
+  ]
+}

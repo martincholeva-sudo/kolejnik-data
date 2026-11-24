@@ -1,0 +1,442 @@
+{
+  "schema": 1,
+  "sourceSha256": "81bfbb9cc36c6a8930725d2ffd1b7764183e3bf1285217710a6b6fb94d0bf69c",
+  "verified": true,
+  "verifiedAt": "2026-10-27T14:45:06.206257+00:00",
+  "reviewedFrom": "2026-10-26",
+  "reviewedUntil": "2026-11-03",
+  "method": "Explicit review of each retained CIS name, checked primary identifier and SR70 name/aliases; no fuzzy matching or platform/entrance assertion",
+  "aliases": [
+    {
+      "stopId": "czrail:CZ:33124",
+      "sourceName": "Vendryně (Wędrynia)",
+      "sourceStopSha256": "814b2473e1ec780196001c973ee3917f473c98104c3710eed30383bfbddfef4a",
+      "registerRecord": "331249",
+      "registerName": "Vendryně",
+      "registerRowSha256": "71a6efdc02421b4619131551032117c48c6cd19501d83ed8eeac1e98f35aca03",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:33135",
+      "sourceName": "Křenovice dol.n.",
+      "sourceStopSha256": "e6e1f3b5652f7167f90fa89562fbbf14c7b7ed44cbfdbe6d961cfa334ca961a5",
+      "registerRecord": "331355",
+      "registerName": "Křenovice dolní nádraží",
+      "registerRowSha256": "d815b40cd37156955efe8254c5ec4e3a1e0150497d454d370d33ed7f9b9aee65",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:33244",
+      "sourceName": "Chotěbuz (Kocobędz)",
+      "sourceStopSha256": "72ec6134374caa704b72545dccb3c299a225f494b43bc7c194f418f135a66e8d",
+      "registerRecord": "332445",
+      "registerName": "Chotěbuz",
+      "registerRowSha256": "e47c3411eec302cbc168b361ed7b1ee86d2605bf15bdd6c4122d70233ebd3e6c",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:33324",
+      "sourceName": "Frenštát p.R. město",
+      "sourceStopSha256": "986086ed02a96e58da18ad795ab2d927cdd63bc75876cb854cf45bb009ae2bdf",
+      "registerRecord": "333245",
+      "registerName": "Frenštát pod Radhoštěm město",
+      "registerRowSha256": "05e5589a9e436a5fece6a3831bbfeac27266493df3d03e6e05ed3c849ee3685e",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:33334",
+      "sourceName": "Frenštát p.R.",
+      "sourceStopSha256": "db73bf6a66f3e3a3f504cb94ed2982f035d02f741966b796193130db04dc1b97",
+      "registerRecord": "333344",
+      "registerName": "Frenštát pod Radhoštěm",
+      "registerRowSha256": "996b42841b35a655f75b849eca47fae3abd78603b559447d3221e5f1b1a3a958",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:33437",
+      "sourceName": "Březová n. Svit.",
+      "sourceStopSha256": "5a7f4f13d42de943644721873be3f860c12fde927aa05380aa6a8bc1439f09fa",
+      "registerRecord": "334375",
+      "registerName": "Březová nad Svitavou",
+      "registerRowSha256": "099249ed0fd7844caddf43f984f7705b20dedad90f9ad7fddee543b6d5f26a9f",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:33862",
+      "sourceName": "Javorník ve Sl.",
+      "sourceStopSha256": "80e8d5086a122779436927bf1779557fc21d642919e71f9813c7a3bab55a66c3",
+      "registerRecord": "338624",
+      "registerName": "Javorník ve Slezsku",
+      "registerRowSha256": "6ab370ede8c75f53586e48598c4b312178eebed82d45a851b96c20f685b95718",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:34545",
+      "sourceName": "Křenovice hor.n.",
+      "sourceStopSha256": "6d44a372414c8004f747a016059a19247353d7aa57db3c361bc81465e5a82edb",
+      "registerRecord": "345454",
+      "registerName": "Křenovice horní nádraží",
+      "registerRowSha256": "dc6ff4ab0e6ec585c830137ee0a46955a25d8813e760eba98dac963df0c1839b",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:34594",
+      "sourceName": "Ropice-Zálesí (Ropica-Zalesie)",
+      "sourceStopSha256": "c9e95cf6d26f8ad11fe1b3c7ef19dfd3264acc13c63f18bfb466f644e0caf1e6",
+      "registerRecord": "345942",
+      "registerName": "Ropice-Zálesí",
+      "registerRowSha256": "1d3bfc5fda0181d13482928aaeddb1bd1c7b8ac9c717c15883ea742832b1790b",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:34782",
+      "sourceName": "Rožnov p.R.",
+      "sourceStopSha256": "0e1932c5d76370e86c125d48ad2e76cc6d00ac7b807a68a694ff2556e591035b",
+      "registerRecord": "347823",
+      "registerName": "Rožnov pod Radhoštěm",
+      "registerRowSha256": "de15e927422a4d47a7a9e4c5dad4e70faa031053cf3a4d7e391694c01967de5d",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:34934",
+      "sourceName": "Třinec-Konská (Trzyniec-Końska)",
+      "sourceStopSha256": "dc46ed161edd86447a0b141f034b1af96e8a44b0eb51bab617fd21215eb10fc3",
+      "registerRecord": "349340",
+      "registerName": "Třinec-Konská",
+      "registerRowSha256": "6d43dd178ae0a1ddac5e23ffca24996f46a20454df3e3a43e9516a6b7a3ef580",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:35385",
+      "sourceName": "N. Město na M.",
+      "sourceStopSha256": "32950c100f09cc9a698f657b9cbc1beedd03f67e3e2096433aae8f83d6b9512e",
+      "registerRecord": "353854",
+      "registerName": "Nové Město na Moravě",
+      "registerRowSha256": "88549136737aa410ab1860e6fe51346578e3c6235012c08a91b7cd0817c628d4",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:35985",
+      "sourceName": "Skalice n. Svit.",
+      "sourceStopSha256": "d781524c75004293d6481dac168335ac7aa3bf7d58c0afa2f353fe945138adfb",
+      "registerRecord": "359851",
+      "registerName": "Skalice nad Svitavou",
+      "registerRowSha256": "851b3363fde0a0f60e5adb942316b787b0e4241b1bcb8217ec377a5ead77f6bc",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:36145",
+      "sourceName": "St. Město u U.H.",
+      "sourceStopSha256": "26850ac99c385543612e0285fda87e19411ce28fc8cc3310e231ed6d135ce6f0",
+      "registerRecord": "361451",
+      "registerName": "Staré Město u Uherského Hradiště",
+      "registerRowSha256": "eb17f2eff27bfa50aea4fbfad9082c4739e4b66401ac9ad0dad4ff8923e39b03",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:37015",
+      "sourceName": "Žďár n.S.",
+      "sourceStopSha256": "b0e3cca0911c4de538b1614bb165656d2bfa65310d67e2cff68e548769565bb7",
+      "registerRecord": "370155",
+      "registerName": "Žďár nad Sázavou",
+      "registerRowSha256": "e0642c5a8b2e5702b64406dfe918c40cd5c49b4fe5ee9788e41d92484490a323",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:53120",
+      "sourceName": "Hradec Král. hl. n.",
+      "sourceStopSha256": "1e2540fa33e800a67f8e79b55401fe03f638e5c17f5e20845870f9003bd414b1",
+      "registerRecord": "531202",
+      "registerName": "Hradec Králové hlavní nádraží",
+      "registerRowSha256": "63cba5bb50abf311d742b1ed09cfa09ba78cbce629582b9f22f528b1d228c170",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:53159",
+      "sourceName": "Ústí n.L. západ",
+      "sourceStopSha256": "2b5ba29e846dfba69b5317d6b92f0b7937ec977d08ddfa38a1f6eefe9fc1ad7c",
+      "registerRecord": "531590",
+      "registerName": "Ústí nad Labem západ",
+      "registerRowSha256": "cc23cf5eb64b821c81ddbbaab658153bcefc0381023f9abc384741019344beb6",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:53179",
+      "sourceName": "Ústí n. L. hl. n.",
+      "sourceStopSha256": "6c29603a60e11cc4dac845f386dda6dc7b4a8b47b526b9f108befff918fef831",
+      "registerRecord": "531798",
+      "registerName": "Ústí nad Labem hlavní nádraží",
+      "registerRowSha256": "362511418f691e3404d250e5b72f47612808a9fea59eea7dfc99b9296fb18d3f",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:53454",
+      "sourceName": "Záboří n.L.",
+      "sourceStopSha256": "87fceae16a55ef58c4cb6465c64182cf551c8b4dae4abfe2e7711802f91d9528",
+      "registerRecord": "534545",
+      "registerName": "Záboří nad Labem",
+      "registerRowSha256": "0aeb3590b70da16775710f0eb20dd3dcdb6a1fb61bbb2f58739894b8688eb11d",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:53483",
+      "sourceName": "Řečany n.L.",
+      "sourceStopSha256": "2e3b891f3690c13cf6a041386300aa9c743be910a30a66ae48b62adf4c45ab57",
+      "registerRecord": "534834",
+      "registerName": "Řečany nad Labem",
+      "registerRowSha256": "30ee2d0fea311b3f4d6c60d9653470513a5a10efa7d4adc7c2431a42e6ede958",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:53890",
+      "sourceName": "N. Město n. Met.",
+      "sourceStopSha256": "5da2f5af225ab2d4768e9a6d25fc211ccd71a11810f0c3ac196f90b4415291e4",
+      "registerRecord": "538900",
+      "registerName": "Nové Město nad Metují",
+      "registerRowSha256": "053b8945fec4bba7ab2b0ccb96f9d5ecdb7c0739ef82125db1902f30110d2a1b",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54110",
+      "sourceName": "Rychnov nad Kněž.",
+      "sourceStopSha256": "079d718df846b5ae64f9d4da3f797d61e2f83339f1d5f9d9f6dee46eec716934",
+      "registerRecord": "541102",
+      "registerName": "Rychnov nad Kněžnou",
+      "registerRowSha256": "22079db2cd0aeaedb4b6b4c9a864c9773161fae99338fc0e36a5a52c9a25bb7a",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54120",
+      "sourceName": "Rychnov n.K. zast.",
+      "sourceStopSha256": "ba502ac15ac6e98be358cef5c17ba05ea1850953ead3784bf64422f3fb0ca263",
+      "registerRecord": "541201",
+      "registerName": "Rychnov nad Kněžnou zastávka",
+      "registerRowSha256": "95a367e6a0edb57b8a7994fceed2e52f0c33e474a941531c9892a6119c194b84",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54133",
+      "sourceName": "Světlá n.S.",
+      "sourceStopSha256": "3e6dbbe94f1ce7c833d4b44a25fcb3a80acd7f2e132cac08de8bd655818962f7",
+      "registerRecord": "541334",
+      "registerName": "Světlá nad Sázavou",
+      "registerRowSha256": "266c15c8b73f48ca7d693492a93df1f25fb9efb44e6a8ce61e1ce79351f6672c",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54140",
+      "sourceName": "Rokytnice v Orl. horách",
+      "sourceStopSha256": "0b1ca6c4c4b982f5be50cea31e5dfb057493d36ee7122a94db61c4e56a863147",
+      "registerRecord": "541409",
+      "registerName": "Rokytnice v Orlických horách",
+      "registerRowSha256": "90f2785e02ba27af66bce97cceb28599cef03b4828d2682c3294f17b15668d1d",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54396",
+      "sourceName": "Kralupy n.V.",
+      "sourceStopSha256": "05ff4d3a56c3727e5941398ae1c8a14eaa3188243e6f46260aaf5784f5879d7b",
+      "registerRecord": "543967",
+      "registerName": "Kralupy nad Vltavou",
+      "registerRowSha256": "262d7108f4499a1c6db55594a211e0ebc99d32bfbf68ef615062d05cd38d6a69",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54562",
+      "sourceName": "Nové Město p.Sm.",
+      "sourceStopSha256": "f87bc3fb0b1fada22854d1c5297b96d5e43c93b0abf939bbcff0f6245a72c54e",
+      "registerRecord": "545624",
+      "registerName": "Nové Město pod Smrkem",
+      "registerRowSha256": "ea46119cc6602a85600d22a26c47aa05ddd1939c4ef5c0ca3add2395aec2aa62",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54572",
+      "sourceName": "Jindřichovice p.Sm.",
+      "sourceStopSha256": "d73f29e065d535881d68e5d3f7ffefb4ed827d3fb87dc8f08eec08e2edc8c77e",
+      "registerRecord": "545723",
+      "registerName": "Jindřichovice pod Smrkem",
+      "registerRowSha256": "a30f064b9edeee4b6bbe7cb2208d6cce59176ce7576feed5644519cf0dd2e957",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54613",
+      "sourceName": "Pardubice-Rosice n.L.",
+      "sourceStopSha256": "4117bceed782599326d6b7c9c87ba13594fd657030b1910a8af48df1d800249e",
+      "registerRecord": "546135",
+      "registerName": "Pardubice-Rosice nad Labem",
+      "registerRowSha256": "5f0b4da7ba52c24ad2c90bb698da029875e47b8152cf66a4d1f5a3e9403c7ff6",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54652",
+      "sourceName": "Frýdlant v Č.",
+      "sourceStopSha256": "31a8285679b3bb6f49229210e956ab3d180f77bcf3df786f49cfd1330cad265a",
+      "registerRecord": "546523",
+      "registerName": "Frýdlant v Čechách",
+      "registerRowSha256": "057397e4457dd2d1bbea958d217bd33d169af5ebe04b794690923b2abc1985e7",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54826",
+      "sourceName": "P.-Hor. Počernice",
+      "sourceStopSha256": "8bae112a99f48116f34150ed56cdc7e6e659daee77099553ac1946669555cede",
+      "registerRecord": "548263",
+      "registerName": "Praha-Horní Počernice",
+      "registerRowSha256": "04fb023d8e9af3acedd13a1514bf318b7c25302628ea8f4c8e200fac001ab903",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54852",
+      "sourceName": "Bílý Potok p.Sm.",
+      "sourceStopSha256": "97419c1e43edbb4783f8bf2cc8dd3db59be7d78d1a86ac10f97036cec31856a8",
+      "registerRecord": "548529",
+      "registerName": "Bílý Potok pod Smrkem",
+      "registerRowSha256": "e2511a4254593bfb6547a3e60b9971f377f51af7fa1950a246e46f8db5a1fa6f",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54853",
+      "sourceName": "Hlinsko v Č.",
+      "sourceStopSha256": "94e75fef936e8d6c545148b3b5f278907135d6995077cad55193414064559348",
+      "registerRecord": "548537",
+      "registerName": "Hlinsko v Čechách",
+      "registerRowSha256": "7c5993273927705aa82858ae7e95bfe711fab9656a98ecde044ad9e510cf49e7",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:54903",
+      "sourceName": "Ždírec n.D.",
+      "sourceStopSha256": "185c2f48bc8d1d7b5f628be6f075cdc0315a3b3a9902f7543861709a0bf05196",
+      "registerRecord": "549030",
+      "registerName": "Ždírec nad Doubravou",
+      "registerRowSha256": "5443c4c7579904782d6424ddcb4c265759992e052ac8b40008490718393926de",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:55112",
+      "sourceName": "Jablonec n.N. dol.n.",
+      "sourceStopSha256": "b5e3b36225a94fed1af062dd6042749de82c2c42e8da228a36a9f8cffd008f1e",
+      "registerRecord": "551127",
+      "registerName": "Jablonec nad Nisou dolní nádraží",
+      "registerRowSha256": "709855a3fc3782abca30cada86aa2548c83da141e552e7e428649d8b825ff5ca",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:56136",
+      "sourceName": "Zruč n.S.",
+      "sourceStopSha256": "d1d885fdf3095f4e4924051d438961c1124ff57ea6378e6d61a568f9553883bf",
+      "registerRecord": "561365",
+      "registerName": "Zruč nad Sázavou",
+      "registerRowSha256": "32a2a02bee33d95e346955418c5d8199d4a79aa458ac694525d5bf3d765c37de",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:56195",
+      "sourceName": "Ledeč n.S.",
+      "sourceStopSha256": "fc2a532483c48d23dcfc072d2a3e6ff357850985823557bdaba07ad4396e7920",
+      "registerRecord": "561951",
+      "registerName": "Ledeč nad Sázavou",
+      "registerRowSha256": "12b25d544860566630c4718b7ead831ffb16d2dcd3c560d372015b5d45cc7966",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:56209",
+      "sourceName": "Benešov n.Pl.",
+      "sourceStopSha256": "cfb15786fc79b9c0feb55f35a8ea7f61c5f1c5d5378c2c373734350feb814f60",
+      "registerRecord": "562090",
+      "registerName": "Benešov nad Ploučnicí",
+      "registerRowSha256": "597ad7310076e72a66e93f8758d569f6abefa3a08375e961d83c342fc10e28e7",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:56559",
+      "sourceName": "Mikulášovice hor.n.",
+      "sourceStopSha256": "740c32effe96a350feb29f5376bfc907f6e61b6e1ad070d79d81928b10f27c76",
+      "registerRecord": "565598",
+      "registerName": "Mikulášovice horní nádraží",
+      "registerRowSha256": "292501bb51c73d3d4cc25bb261b78aa49164540cbb0237ae4e62166639375836",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:57019",
+      "sourceName": "Litoměřice hor.n.",
+      "sourceStopSha256": "eec6ffd9a378a872fe96d5c78092929787239178868c00a079a65a1046cb79bb",
+      "registerRecord": "570192",
+      "registerName": "Litoměřice horní nádraží",
+      "registerRowSha256": "a3ffc88ad1a261df68706b3e722de57bad94c6a2664f40671b959ba743bca17b",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:57236",
+      "sourceName": "Praha Masaryk. n.",
+      "sourceStopSha256": "ade5608534b577a7b2111871e729d6eac8dfa47c4c135f3db955065ee8d3fd35",
+      "registerRecord": "572362",
+      "registerName": "Praha Masarykovo nádraží",
+      "registerRowSha256": "062a9a30d19e6e128ceb8ecc31bee95640f237fcf3726a37a91bf8c60d2aa4e4",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:58000",
+      "sourceName": "Čáslav",
+      "sourceStopSha256": "865c54e58453e0ce8f3829da8939cda8a54d71e8e4145c591394cc17318db2db",
+      "registerRecord": "580001",
+      "registerName": "Čáslav m.n.",
+      "registerRowSha256": "87d25f3ae9a04bc70c665e858d7bd2ec48ae2e864f132ebaecc6f2e060f0c989",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:73275",
+      "sourceName": "Plzeň hl. n.",
+      "sourceStopSha256": "6519556d6d40f1b258f7e3807b620c26a68fb5d432517406536f79b82f65ca64",
+      "registerRecord": "732750",
+      "registerName": "Plzeň hlavní nádraží",
+      "registerRowSha256": "a874ec8f2a8ac776f2b928c9577799d7ccbe8e4ab6df95f714b43fef397cb493",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:74585",
+      "sourceName": "Karlovy Vary dolní n.",
+      "sourceStopSha256": "e536c42725316a5d709115742bff3fb221a66a8b778999d40837322b1f99c138",
+      "registerRecord": "745851",
+      "registerName": "Karlovy Vary dolní nádraží",
+      "registerRowSha256": "2f660b07e9f96ddb8809fcb36b912cf42b2175c33c75f849c09aba3e3f919f2b",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:74945",
+      "sourceName": "Planá u M.L.",
+      "sourceStopSha256": "e5005a4e9dccca523c28f9e9e75b1dc8b3d2ae3d6b824323bf343de05e1de3f7",
+      "registerRecord": "749457",
+      "registerName": "Planá u Mariánských Lázní",
+      "registerRowSha256": "bd5ed03a4abc48349be1cb2ab171f21937fb5eb792a6ef4cdc75dfaacab9729b",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:75935",
+      "sourceName": "Kynšperk n.O.",
+      "sourceStopSha256": "e2769ab1491d4b0ff2bc1ea76944c6bd6739da49401c6b8694dc506ff4e292ef",
+      "registerRecord": "759357",
+      "registerName": "Kynšperk nad Ohří",
+      "registerRowSha256": "a82f9c9f96cfeb15c301bcc95ad8889a43b9dff8a5eae72fb3a274290352d27f",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    },
+    {
+      "stopId": "czrail:CZ:77025",
+      "sourceName": "Ž. Ruda-Alžbětín",
+      "sourceStopSha256": "c116c357c1ba1b32cf5a2f0efdca0110ab95c5d503bed70f767ceab189162d72",
+      "registerRecord": "770255",
+      "registerName": "Železná Ruda-Alžbětín",
+      "registerRowSha256": "e470a25869c7942546588544ef69afd0212a5c27b582a34b55d3f293f0d98d5f",
+      "reason": "Published CIS abbreviation/bilingual presentation for this exact checked SR70 identity; station reference only"
+    }
+  ],
+  "deliberatelyNotAliased": [
+    {
+      "stopId": "czrail:CZ:38034",
+      "sourceName": "Ostrava hl. n.",
+      "registerName": "Ostrava uhelné nádraží",
+      "reason": "Different registered operational area; do not infer passenger access from the common source name"
+    }
+  ]
+}

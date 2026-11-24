@@ -1,0 +1,215 @@
+{
+  "schema": 2,
+  "sha256": "synthetic-rail-nad-boarding",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "active": {
+    "2026-10-27": [
+      "daily"
+    ]
+  },
+  "stops": [
+    {
+      "id": "czrail:CZ:A",
+      "name": "Origin",
+      "source": "cis-rail",
+      "group": "czrail:CZ:A",
+      "type": 0,
+      "parent": "",
+      "lat": 0,
+      "lon": 0,
+      "zone": "",
+      "platform": ""
+    },
+    {
+      "id": "czrail:CZ:A:replacement",
+      "name": "Origin",
+      "source": "cis-rail",
+      "group": "czrail:CZ:A",
+      "type": 0,
+      "parent": "",
+      "lat": 0,
+      "lon": 0,
+      "zone": "",
+      "platform": "",
+      "sourceStopId": "czrail:CZ:A",
+      "boardingMode": "replacement"
+    },
+    {
+      "id": "czrail:CZ:B",
+      "name": "Station",
+      "source": "cis-rail",
+      "group": "czrail:CZ:B",
+      "type": 0,
+      "parent": "",
+      "lat": 0,
+      "lon": 0,
+      "zone": "",
+      "platform": ""
+    },
+    {
+      "id": "czrail:CZ:B:replacement",
+      "name": "Station",
+      "source": "cis-rail",
+      "group": "czrail:CZ:B",
+      "type": 0,
+      "parent": "",
+      "lat": 0,
+      "lon": 0,
+      "zone": "",
+      "platform": "",
+      "sourceStopId": "czrail:CZ:B",
+      "boardingMode": "replacement"
+    },
+    {
+      "id": "bus",
+      "name": "Station bus",
+      "source": "cis-ostrava",
+      "group": "bus",
+      "type": 0,
+      "parent": "",
+      "lat": 0,
+      "lon": 0,
+      "zone": "",
+      "platform": ""
+    },
+    {
+      "id": "destination",
+      "name": "Destination",
+      "source": "cis-ostrava",
+      "group": "destination",
+      "type": 0,
+      "parent": "",
+      "lat": 0,
+      "lon": 0,
+      "zone": "",
+      "platform": ""
+    }
+  ],
+  "routes": [
+    [
+      "train",
+      "T",
+      2,
+      {
+        "source": "cis-rail",
+        "replacementTransport": false
+      }
+    ],
+    [
+      "nad",
+      "NAD T",
+      2,
+      {
+        "source": "cis-rail",
+        "replacementTransport": true
+      }
+    ],
+    [
+      "bus",
+      "37",
+      3,
+      {
+        "source": "cis-ostrava"
+      }
+    ]
+  ],
+  "paths": [
+    [
+      2,
+      4,
+      300,
+      true
+    ],
+    [
+      4,
+      2,
+      300,
+      true
+    ]
+  ],
+  "transfers": [],
+  "trips": [
+    [
+      "train",
+      "daily",
+      0,
+      "Station",
+      "1",
+      [
+        [
+          0,
+          36000,
+          36000,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          39600,
+          39600,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ],
+    [
+      "nad",
+      "daily",
+      1,
+      "Station",
+      "2",
+      [
+        [
+          1,
+          36000,
+          36000,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          39600,
+          39600,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ],
+    [
+      "bus",
+      "daily",
+      2,
+      "Destination",
+      "3",
+      [
+        [
+          4,
+          39900,
+          39900,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          5,
+          40800,
+          40800,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ]
+  ]
+}

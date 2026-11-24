@@ -1,0 +1,170 @@
+{
+  "schema": 2,
+  "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "stops": [
+    {
+      "id": "A",
+      "name": "A",
+      "lat": 50,
+      "lon": 14,
+      "type": 0,
+      "parent": "",
+      "platform": "1",
+      "group": "A"
+    },
+    {
+      "id": "B",
+      "name": "B",
+      "lat": 50,
+      "lon": 14,
+      "type": 0,
+      "parent": "",
+      "platform": "1",
+      "group": "B"
+    },
+    {
+      "id": "C",
+      "name": "C",
+      "lat": 50,
+      "lon": 14,
+      "type": 0,
+      "parent": "",
+      "platform": "1",
+      "group": "C"
+    },
+    {
+      "id": "D",
+      "name": "D",
+      "lat": 50,
+      "lon": 14,
+      "type": 0,
+      "parent": "",
+      "platform": "1",
+      "group": "D"
+    }
+  ],
+  "routes": [
+    [
+      "rail",
+      "R",
+      2,
+      {
+        "source": "cis-rail",
+        "declaredCounterTimes": [
+          {
+            "sequence": 2,
+            "arrival": 36720,
+            "departure": 36600,
+            "dwellTime": ""
+          }
+        ]
+      }
+    ],
+    [
+      "bus",
+      "B",
+      3
+    ]
+  ],
+  "trips": [
+    [
+      "train",
+      "service",
+      0,
+      "C",
+      "R",
+      [
+        [
+          0,
+          36000,
+          36000,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          36720,
+          36600,
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          37200,
+          37200,
+          0,
+          0,
+          3,
+          1
+        ]
+      ]
+    ],
+    [
+      "too-early",
+      "service",
+      1,
+      "D",
+      "B",
+      [
+        [
+          1,
+          36660,
+          36660,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          37800,
+          37800,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ],
+    [
+      "valid-transfer",
+      "service",
+      1,
+      "D",
+      "B",
+      [
+        [
+          1,
+          37080,
+          37080,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          38100,
+          38100,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ]
+  ],
+  "active": {
+    "2026-10-27": [
+      "service"
+    ]
+  },
+  "paths": [],
+  "transfers": []
+}

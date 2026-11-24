@@ -1,0 +1,344 @@
+{
+  "schema": 1,
+  "reviews": [
+    {
+      "id": "dpo-svinov-tram-platforms-20261027",
+      "evidence": "https://dashboard.dpo.cz/apps/departures",
+      "verified": true,
+      "verifiedAt": "2026-10-27T17:19:58.521363+00:00",
+      "validFrom": "2026-10-20",
+      "reviewedFrom": "2026-10-26",
+      "reviewedUntil": "2026-11-03",
+      "method": "Direct operator trip-detail inspection for both directions; retained KODIS platform plan and exact adjacent CIS calls. Each mapping pins the complete source-call fingerprint, including the full journey-pattern signature.",
+      "sourceSnapshotSha256": "5afd4b9ba38afd7a0ca120f1cd574a18bb7b5d61d16d39936a264a60e60e0b7c",
+      "observationReport": "reports/svinov-access-20261027/operator-platform-observations.json",
+      "referencePlan": "https://kodis-files.s3.eu-central-1.amazonaws.com/Ostrava_Svinov_698c02f797.pdf",
+      "referencePlanSha256": "c6961bd227ea2a8c8637c99bd5c8a2fd22ab47c839a9accdcfee9ca0fc7a2a8b",
+      "walkingAccessVerified": false
+    }
+  ],
+  "calls": [
+    {
+      "stopId": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:ScheduledStopPoint:915019__20:call:c13fa628c46f08f79a05",
+      "stopSha256": "63931f398400087152f2bcda2d38c90c8e8e2a34f708a4a4b9b3fce77a25e91f",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:41f6569ef45fa9c1:CZ:cisjr_jdf:ScheduledStopPoint:915019__20:call:c64b4468b22b16c38766",
+      "stopSha256": "6aa9b942f1899f1eb9adebbc4d91fac79e0c898cb7610791c61d1237da797c03",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:1f1222cf59fdfb38303d",
+      "stopSha256": "c686f596f2e9024b0e768ea9d7736f162ff2158d2f9b88453f1b818e343bbd5a",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:38dd565bf53b04c62d36",
+      "stopSha256": "8162843a495721968544c3db4778bd98a4d3299fb75ad7c3339e5fab944e7815",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:4182c76ba567576b5302",
+      "stopSha256": "936e88229e59d18599e5f0842ae3a48a6ee78dcfb1712ff6e342f784bdd09d92",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:62d2a5a39ae32f6d1f95",
+      "stopSha256": "a807ba3cdd8550b3e0098942eacedab045a04a63ac92f53a4279ad351e910086",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:955d0164d433c1396b08",
+      "stopSha256": "f63349140a656c83cbb23b86d8bdb014f00a1624f3723ff660201a23ed695df7",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:a2e9a8b054ef630bd141",
+      "stopSha256": "04d56a40b8a27f21253cb2bff50f9b4217308703d83be3348773ef02c3b92da2",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:a9bae1b54e3e882af7f3",
+      "stopSha256": "18fe6dcaa25c32b319daf9aaa677c3d9b7cee9c642ff96656f43879ddd4c34d5",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:aa3cc531397be3c4fed5",
+      "stopSha256": "2db06db3aafbded617b453537ed9d164747823e00db6f8077f6f6ee653238300",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:b5b1f9bc53bc5b01e3a0",
+      "stopSha256": "1d9a9a861b141956794f4c21121b2c491a26133a3e3880f86b8a84bb5a03c08f",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:f3b1fdf9c904d9a8cdab",
+      "stopSha256": "c93e4c51b30a70f5a991df8511bc34d486317f0769655e665fa5d438a3a63b58",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:f6c94dfc7f41a7b1132a",
+      "stopSha256": "89acd820c34148f1c46cd90c440a3de8c5ba8d9edc10619127cda0f761c88ee6",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:42dc532bffe14c4e:CZ:cisjr_jdf:ScheduledStopPoint:915004__10:call:fe59b4afe9a0187a9496",
+      "stopSha256": "0f980c30e8d0aa5d2ff5316d4322a4dcc51da3783fba1cbe0bd06ee07b183169",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:2f91a55bd70f8d05e61c",
+      "stopSha256": "5bdf2dd082e55c4eb14ed7c03664b167eacfb773a5685a11020e2fa1498f5868",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:6ac5c976199ab9826ba5",
+      "stopSha256": "25080394eb00cb8b896d5769d5c595204c1023f8dd9eb21c3bec63f484ebd0b0",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:a4105064240c7f019ac4",
+      "stopSha256": "376e3f4ca9db7b3ad056ef4dd5e20337982aa70e4634f6b1bc2f748b588826bd",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:5a14f19daa75223c:CZ:cisjr_jdf:ScheduledStopPoint:915011__5:call:ced836ecc57d0b07d392",
+      "stopSha256": "d8cd5a0eb90da91e9a633200ae16311d0e49e7521802bad04bf5214bee2d4386",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:72aaabad154409cb7a08",
+      "stopSha256": "c2feb7ca1e4ed670fc37e83638681baa847753624a74566eadba17c23a141e69",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:89b38345e3fe5703f5c8",
+      "stopSha256": "c178024af080d8a1cecfb903783bac81f768c5f04cdd2e055fbba6112522fe77",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:9ec9f699fd76860d2cdb",
+      "stopSha256": "f5db5f040ce93a300b9837cd1d28b2dec8e2e1f88e620896046b0f67b0c8715e",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:b0b308d81c872f3a3f6f",
+      "stopSha256": "9c4293c2aaa9781dacef79b493d8af1c9f6f94f91aa53b00b7f6c6c41b366b61",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:bb84eb0ce565a3124558",
+      "stopSha256": "b4c56f0a0f42665de8a8a893fb5212faf45226ba0d10f9ad00662ed84168aef1",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:dcbc715c183fb85a3f67",
+      "stopSha256": "876346a4b94f3d65856ea8608384bad34edc5c2ac7d08657a0091f8fcdb35be6",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:f83c064153f6bab0026c",
+      "stopSha256": "d41e522717698610bdf4e270ad9b1c86acf3e28b92d440bdbe0e1914cb9e4f58",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:80dab77af4d8909b:CZ:cisjr_jdf:ScheduledStopPoint:915008__21:call:fb7f309467a6829f963d",
+      "stopSha256": "0a0d6e8e6f1b94c7b114f04ae6d56ea2c179cb9bfb1215cb02373f52716689c4",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:0da1a1f906023ad2478f",
+      "stopSha256": "38d73323c695c0150e71488173eee6d93ae9533fc05ce95119e606d7e29a0359",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:4518019527cfe659fc09",
+      "stopSha256": "43be46e9b05f7d10d89e57e71bc4e5a71fd713e3091a34686077bc56fb7942a8",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:72b0ccf5b911118370cd",
+      "stopSha256": "898a3902ee12ac6184f1a74b30e073be0f55dd304708b51aae2f9edbb90f3d18",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:7841552c970bfc4182eb",
+      "stopSha256": "d8520e2b0f8bebe644977fce523d8a057306a85fd59fef9caef1af433f42a946",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:8c3750f03caa813f9e58",
+      "stopSha256": "2059600e077f7a2082d30d24e69a23e2e7ba4c099a698ef214c20fc36b8db607",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:9f97088ac9ca1adfa162",
+      "stopSha256": "7fbeb2b150fa04ffa83b6e25e652cc1ff8f0e8f2fd4ea10f46fd099853ecbc1e",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:c6dda3421e2efa9a9ac0",
+      "stopSha256": "1251d7058ce4c9eda048e7bf4b291d9cbb9212e719101d70ded233395234c932",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:8efd79d96890a532:CZ:cisjr_jdf:ScheduledStopPoint:915017__9:call:cfc72c6c1cb95a8056e6",
+      "stopSha256": "5c9277ac1c9c63c51cb120d338ca60df4f18fa110165ea5df51bcd0bbd6abac6",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:ScheduledStopPoint:915003__5:call:5ea71dda4553201cd32d",
+      "stopSha256": "166044936f2e36aaeb66202dc6a04f800f7c9911ab8a4a0b5f9b67f1f121ad02",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:9b56104ad447f4ea:CZ:cisjr_jdf:ScheduledStopPoint:915003__5:call:a6be06443330cb5cc250",
+      "stopSha256": "f34b1788833f7c3100f35640e27a80fa14702b457b52e1dd999616a42f7c09a8",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:16eac52c04b08922f602",
+      "stopSha256": "75344b9df1c8087212804d10c64b76aed8f420aab71f3f111c00a9c5cbb78fd2",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:25ceb030b58cce5a56f7",
+      "stopSha256": "510c6fd7907dadc199564ebc30459552496deaf414f3e5c8b9a7d936cfe43c13",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:3f8d4221b53c8535a2a3",
+      "stopSha256": "2ecf51bceeee918a15ef55756255f4bd5d5005d8b0916689f0faf37f905c709c",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:41a191b55c76b9ef5256",
+      "stopSha256": "b32fff9054f1b2b70d586f105f639f9a76b84d7868591e196ed19a84a67eb189",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:57cdb7095d281e23beec",
+      "stopSha256": "b935db5d773fec988910e6dd1ae74bd02a76864395ed85d4d10ad725d7aa2f95",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:6079e73e8f5b7f33500c",
+      "stopSha256": "641d848133536478ced3fc2f455ce0f36256b67c1f1ad30aea094ba513e1c49d",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:681fa3d954257997e5b4",
+      "stopSha256": "4fb34ecba5a52ab01fef738cdb373aadbe1b036583894edf8f68c175dc3e9a9b",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:6a017b6e18b8e12308f9",
+      "stopSha256": "685acf6f4ab2f82d3522d45cb6ac23de6206df3ee8d1077ef9a86a7ec3560261",
+      "physicalPlatformId": "osm:way:233687851",
+      "platform": "H1",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:be9237ee3ffa922fc122",
+      "stopSha256": "009477b5ad979257894e1143d5fa9422877da95a0af5f9a08e7b9df100557704",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    },
+    {
+      "stopId": "ostrava:a9bfbd8a3b8fa922:CZ:cisjr_jdf:ScheduledStopPoint:915007__9:call:f38481c22ad1d7e7047b",
+      "stopSha256": "991cf2100c237f75dfcf533b8cdaf99583927d649711ae3287a179c9b6fb2682",
+      "physicalPlatformId": "osm:way:233687850",
+      "platform": "H2",
+      "reviewId": "dpo-svinov-tram-platforms-20261027"
+    }
+  ]
+}

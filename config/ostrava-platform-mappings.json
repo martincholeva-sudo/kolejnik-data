@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "reviews": [
+    {
+      "id": "dpo-svinov-boarding-20261020",
+      "evidence": "https://www.dpo.cz/soubory/jr/stan-mhd-svinov-nadrazi-2026-10-20.jpg",
+      "verifiedAt": "2026-10-27T11:28:44.146245+00:00",
+      "validFrom": "2026-10-20",
+      "verified": true,
+      "method": "TinyFish visual inspection; exact CIS pattern destinations; OSM route 37 platform memberships. Coordinates and walking times reviewed separately.",
+      "browserRun": "https://agent.tinyfish.ai/runs/bcd0adff-ec63-461b-bd8e-682c03708706",
+      "reviewedFrom": "2026-10-26",
+      "reviewedUntil": "2026-11-03"
+    }
+  ],
+  "calls": [
+    {
+      "stopId": "ostrava:71de10fe41fb5ca0:CZ:cisjr_jdf:ScheduledStopPoint:915037__13:call:08e10daaac810a2dbc7b",
+      "stopSha256": "ce5d8d72c5a00f23590e656085968d25d432282b19ed4a0a457c006e0bee8e13",
+      "physicalPlatformId": "dpo:svinov-nadrazi:N2",
+      "platform": "N2",
+      "reviewId": "dpo-svinov-boarding-20261020"
+    },
+    {
+      "stopId": "ostrava:71de10fe41fb5ca0:CZ:cisjr_jdf:ScheduledStopPoint:915037__13:call:0b5fc51b93857d17198f",
+      "stopSha256": "994f4d7b8cf8dabec60754b22615cfd33a42f1be7d3cdf99388bc84afd46cd73",
+      "physicalPlatformId": "dpo:svinov-nadrazi:N2",
+      "platform": "N2",
+      "reviewId": "dpo-svinov-boarding-20261020"
+    },
+    {
+      "stopId": "ostrava:71de10fe41fb5ca0:CZ:cisjr_jdf:ScheduledStopPoint:915037__13:call:3cfbf6b4d052c8a6ff1d",
+      "stopSha256": "39cfd60d2d64f58c4cb3739b419cd3465db2530e263dee823bfcb007530b1802",
+      "physicalPlatformId": "dpo:svinov-nadrazi:N2",
+      "platform": "N2",
+      "reviewId": "dpo-svinov-boarding-20261020"
+    },
+    {
+      "stopId": "ostrava:71de10fe41fb5ca0:CZ:cisjr_jdf:ScheduledStopPoint:915037__13:call:54de3af3b9f9e44933b7",
+      "stopSha256": "56d6600b814dc025f5bc5c026b28c576d6f48e7377cc25ee189b6d6795b47c58",
+      "physicalPlatformId": "dpo:svinov-nadrazi:N1",
+      "platform": "N1",
+      "reviewId": "dpo-svinov-boarding-20261020"
+    },
+    {
+      "stopId": "ostrava:71de10fe41fb5ca0:CZ:cisjr_jdf:ScheduledStopPoint:915037__13:call:a4c679dd0243283b1c52",
+      "stopSha256": "bc06a51082c5f2ff6ab2a4f8dc991a20c7af231a29dea9ac32c286d263472938",
+      "physicalPlatformId": "dpo:svinov-nadrazi:N1",
+      "platform": "N1",
+      "reviewId": "dpo-svinov-boarding-20261020"
+    },
+    {
+      "stopId": "ostrava:71de10fe41fb5ca0:CZ:cisjr_jdf:ScheduledStopPoint:915037__13:call:deb87dd9d2f01525db5e",
+      "stopSha256": "4753f0e46059a9c5efc23abf54353ff1c1bbede8c2383254ba9d5504ef7f3ada",
+      "physicalPlatformId": "dpo:svinov-nadrazi:N2",
+      "platform": "N2",
+      "reviewId": "dpo-svinov-boarding-20261020"
+    }
+  ]
+}

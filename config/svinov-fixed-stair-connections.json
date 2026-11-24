@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "reviewed": true,
+  "reviewedAt": "2026-10-27T17:50:24.440649+00:00",
+  "reviewedFrom": "2026-10-26",
+  "reviewedUntil": "2026-11-03",
+  "sourceContentSha256": "679bcd76693116c5aeea2be64aa60d2fbde8699086a0f4d3f786564ba550eec8",
+  "sourceFileSha256": "c82a04e7734e912bc1e00d36fbff96cd16378bf5084d52c54130080e7963df13",
+  "planUrl": "https://kodis-files.s3.eu-central-1.amazonaws.com/Ostrava_Svinov_698c02f797.pdf",
+  "planSha256": "c6961bd227ea2a8c8637c99bd5c8a2fd22ab47c839a9accdcfee9ca0fc7a2a8b",
+  "planStateDate": "2026-06-20",
+  "planPage1Based": 1,
+  "method": "Visual distinction of separate fixed-stair, lift and escalator symbols in the retained official plan; OSM platform and intermediate-concourse reference anchors reviewed separately.",
+  "geometry": "Plan-confirmed topological stair connections, not surveyed stair footprints or measured polylines.",
+  "durationMethod": "120-second modeled allowance per short platform-apron/landing/fixed-stair connection. Separate mapped walking, full platform extents and boarding uncertainty are added by the audit.",
+  "durationMeasured": false,
+  "usesLift": false,
+  "usesEscalator": false,
+  "connections": [
+    {
+      "platform": "H1",
+      "platformWay": 233687851,
+      "upperNode": 2420344725,
+      "upperLevel": "2",
+      "concourseWay": 1436799696,
+      "lowerNode": 13221139979,
+      "lowerLevel": "1",
+      "seconds": 120,
+      "bidirectional": true
+    },
+    {
+      "platform": "H2",
+      "platformWay": 233687850,
+      "upperNode": 2420344719,
+      "upperLevel": "2",
+      "concourseWay": 1436799696,
+      "lowerNode": 13221139976,
+      "lowerLevel": "1",
+      "seconds": 120,
+      "bidirectional": true
+    }
+  ]
+}

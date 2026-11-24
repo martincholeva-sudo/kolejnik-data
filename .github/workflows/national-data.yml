@@ -1,0 +1,62 @@
+name: Celostatni jizdni rady bez placenych minut
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 0 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: publish-national
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      PYTHONPATH: scripts:tests
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify importers and atomic publication
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            runtime/national-refresh/sources
+            runtime/national-refresh/prepare/rail-state-*.json.gz
+          key: national-inputs-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: national-inputs-v1-
+      - name: Read current publication using a repository-scoped key
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: martincholeva-sudo/kolejnik-web
+          ref: main
+          path: target
+          ssh-key: ${{ secrets.KOLEJNIK_PUBLISH_KEY }}
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /spojeni/data-national/
+          fetch-depth: 1
+      - run: python scripts/seed_data.py data-national
+      - name: Revalidate official sources and build complete shared data
+        run: python scripts/refresh_national_data.py
+      - name: Publish identical data to web and installed-app branches
+        run: |
+          git -C target config user.name 'Kolejnik data updater'
+          git -C target config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/publish_national_refs.py --repo target
+      - name: Verify web delivery and installed-app compatibility
+        run: python scripts/verify_channels.py data-national
+      - uses: actions/cache/save@v4
+        if: always()
+        continue-on-error: true
+        with:
+          path: |
+            runtime/national-refresh/sources
+            runtime/national-refresh/prepare/rail-state-*.json.gz
+          key: national-inputs-v1-${{ github.run_id }}-${{ github.run_attempt }}

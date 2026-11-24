@@ -1,0 +1,125 @@
+{
+  "schema": 2,
+  "sha256": "synthetic-boarding-contexts",
+  "start": "2026-10-27",
+  "end": "2026-10-27",
+  "active": {
+    "2026-10-27": [
+      "daily"
+    ]
+  },
+  "stops": [
+    {
+      "id": "A",
+      "name": "Origin",
+      "group": "origin",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": ""
+    },
+    {
+      "id": "hub-out",
+      "name": "Hub",
+      "group": "same-source-stop",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": ""
+    },
+    {
+      "id": "hub-in",
+      "name": "Hub",
+      "group": "same-source-stop",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": ""
+    },
+    {
+      "id": "C",
+      "name": "Destination",
+      "group": "destination",
+      "lat": 0,
+      "lon": 0,
+      "type": 0,
+      "parent": "",
+      "zone": "",
+      "platform": ""
+    }
+  ],
+  "routes": [
+    [
+      "r",
+      "37",
+      3,
+      {
+        "source": "cis-ostrava"
+      }
+    ]
+  ],
+  "paths": [],
+  "transfers": [],
+  "trips": [
+    [
+      "arriving",
+      "daily",
+      0,
+      "Hub",
+      "1",
+      [
+        [
+          0,
+          35400,
+          35400,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          36000,
+          36000,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ],
+    [
+      "departing",
+      "daily",
+      0,
+      "Destination",
+      "2",
+      [
+        [
+          2,
+          36360,
+          36360,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          36900,
+          36900,
+          0,
+          0,
+          2,
+          1
+        ]
+      ]
+    ]
+  ]
+}

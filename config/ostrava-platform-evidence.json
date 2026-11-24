@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-10-27",
+  "status": "N1/N2 and 46 exact tram call contexts H1/H2 reviewed; optional isolated fixed-stair walking candidate connects rail, bus37 and tram platforms with estimated durations",
+  "referenceIndexes": [
+    "https://www.dpo.cz/jizdni-rady/plan-site.html",
+    "https://www.kodis.cz/prestupni-uzly"
+  ],
+  "documents": [
+    {
+      "id": "dpo-svinov-station-20261020",
+      "hub": "Ostrava-Svinov",
+      "publisher": "Dopravní podnik Ostrava",
+      "url": "https://www.dpo.cz/soubory/jr/stan-mhd-svinov-nadrazi-2026-10-20.pdf",
+      "validFromDeclaredByIndex": "2026-10-20",
+      "fileBytesVerified": false,
+      "geometryVerified": false,
+      "walkingTimesVerified": false,
+      "graphicReadable": true,
+      "boardingLabelsVerified": true,
+      "reviewRun": "https://agent.tinyfish.ai/runs/bcd0adff-ec63-461b-bd8e-682c03708706"
+    },
+    {
+      "id": "dpo-svinov-lower-20261020",
+      "hub": "Svinov,mosty (dolní zastávka)",
+      "publisher": "Dopravní podnik Ostrava",
+      "url": "https://www.dpo.cz/soubory/jr/stan-mhd-svinov-mosty-dolni-zastavka-2026-10-20.pdf",
+      "validFromDeclaredByIndex": "2026-10-20",
+      "fileBytesVerified": false,
+      "geometryVerified": false,
+      "walkingTimesVerified": false
+    },
+    {
+      "id": "kodis-svinov-reference",
+      "hub": "Ostrava-Svinov",
+      "publisher": "Koordinátor ODIS",
+      "url": "https://kodis-files.s3.eu-central-1.amazonaws.com/Ostrava_Svinov_698c02f797.pdf",
+      "validFromDeclaredByIndex": null,
+      "fileBytesVerified": true,
+      "geometryVerified": false,
+      "walkingTimesVerified": false,
+      "graphicReadable": true,
+      "boardingLabelsVerified": true,
+      "printedStateDate": "2026-06-20",
+      "actualPdfPages": 1,
+      "sha256": "c6961bd227ea2a8c8637c99bd5c8a2fd22ab47c839a9accdcfee9ca0fc7a2a8b",
+      "individualTramPlatformAccessVerified": true,
+      "currentOperationVerified": false,
+      "fixedStairTopologyVerified": true,
+      "fixedStairGeometrySurveyed": false,
+      "supportedScope": "Separate fixed-stair icons at the ends of both inner tram platforms, beside lift icons; escalator icons are distinct. Establishes schematic access, not exact stair polylines or measured walking durations."
+    },
+    {
+      "id": "ostrava-municipal-terminal-description-2026-2032",
+      "hub": "Svinov,mosty",
+      "publisher": "Statutární město Ostrava",
+      "url": "https://ostrava.cz/cs/urad/magistrat/odbory-magistratu/odbor-dopravy/oddeleni-silnicni-a-drazni-dopravy/plan-dopravni-obsluznosti-uzemi-smo-na-obdobi-2026-2032.pdf/@@download/file/Pl%C3%A1n%20dopravn%C3%AD%20obslu%C5%BEnosti%20%C3%BAzem%C3%AD%20SMO%20na%20obdob%C3%AD%202026%20-%202032.pdf",
+      "section": "6.5; figure 15",
+      "textPdfPage1Based": 48,
+      "reviewedOn": "2026-10-27",
+      "supportedScope": "Municipal description of upper/lower terminal connections using a corridor, escalators, lifts and fixed stairs; upper level also has buses.",
+      "fileBytesVerified": false,
+      "geometryVerified": false,
+      "walkingTimesVerified": false,
+      "individualTramPlatformAccessVerified": false,
+      "currentEscalatorDirectionVerified": false,
+      "currentOperationVerified": false,
+      "visualReviewRun": "https://agent.tinyfish.ai/runs/c0998cba-b7f9-4837-9212-b9b925b23295",
+      "visualReviewLimitations": "Exact H1/H2 pedestrian connection geometry was unreadable. The automated report misclassified all H stands as tram stands and misstated page indexes; those claims were rejected. General prose does not bind a particular OSM edge or CIS call."
+    },
+    {
+      "id": "survey-svinov-tram-centrum-zabreh-201910",
+      "hub": "Svinov,mosty",
+      "publisher": "Bez Bariér Ostravsko",
+      "url": "https://www.ostrava-bezbarier.cz/wpll_pristupnost/svinov-mosty-smer-centrum-zabreh-zastavka-mhd/",
+      "surveyUpdatedMonth": "2019-10",
+      "category": "Tramvaj",
+      "supportedScope": "Historical site survey describes lift access for this specific tram direction; not a bus stop.",
+      "geometryVerified": false,
+      "walkingTimesVerified": false,
+      "currentOperationVerified": false
+    },
+    {
+      "id": "survey-svinov-tram-poruba-martinov-201910",
+      "hub": "Svinov,mosty",
+      "publisher": "Bez Bariér Ostravsko",
+      "url": "https://www.ostrava-bezbarier.cz/wpll_pristupnost/svinov-mosty-smer-poruba-martinov-zastavka-mhd/",
+      "surveyUpdatedMonth": "2019-10",
+      "category": "Tramvaj",
+      "supportedScope": "Historical site survey describes lift access for this specific tram direction; not a bus stop.",
+      "geometryVerified": false,
+      "walkingTimesVerified": false,
+      "currentOperationVerified": false
+    },
+    {
+      "id": "dpo-svinov-tram-ui-20261027",
+      "hub": "Svinov,mosty",
+      "publisher": "Dopravní podnik Ostrava",
+      "url": "https://dashboard.dpo.cz/apps/departures",
+      "reviewedOn": "2026-10-27",
+      "supportedScope": "H1 toward Trebovice/Poruba and H2 toward Nova Ves confirmed in current trip details; no lift operation or walking duration inferred.",
+      "boardingLabelsVerified": true,
+      "geometryVerified": false,
+      "walkingTimesVerified": false,
+      "currentOperationVerified": false
+    }
+  ],
+  "approvedLinks": [
+    "Optional candidate only: 92 directed rail-tram, 1040 opposite-tram-platform and 552 bus37-tram links; 28 existing rail/bus links retained unchanged"
+  ],
+  "pending": [
+    "Review further Ostrava platforms and additional walking corridors; survey exact Svinov fixed-stair/apron geometry",
+    "Verify remaining walking corridors, stairs, entrances and crossings",
+    "Survey actual walking times/accessibility and train-specific platform positions",
+    "Renew finite source-bound review after source/horizon changes"
+  ],
+  "verifiedCallMappings": "config/ostrava-platform-mappings.json",
+  "coordinateCatalog": "config/priority-location-mappings.json",
+  "candidateLinkCatalog": "Generated explicitly by scripts/build_svinov_tram_interchanges.py; historical 28-link snapshot retained in reports/priority-locations-20261027/interchanges-candidate.json",
+  "verifiedTramCallMappings": "config/svinov-tram-platform-mappings.json",
+  "tramPlatformObservationReport": "reports/svinov-access-20261027/operator-platform-observations.json",
+  "retainedAccessSources": "reports/svinov-access-20261027/retained-sources.json",
+  "fixedStairReview": "config/svinov-fixed-stair-connections.json",
+  "fixedStairAudit": "reports/svinov-access-20261027/pedestrian-audit.json",
+  "fixedStairIntegrationProof": "reports/svinov-access-20261027/stairs-integration-proof.json"
+}
