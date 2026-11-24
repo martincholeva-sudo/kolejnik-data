@@ -70,3 +70,10 @@ class PidPublicationTests(unittest.TestCase):
     def test_unknown_channel_is_rejected(self):
         with self.assertRaises(ImportErrorDetail):
             publish_refs(self.repo, self.public, channel='android', now=NOW)
+
+    def test_shared_pid_url_needs_only_main_and_preserves_legacy_head(self):
+        previous = self.heads()
+        publish_refs(self.repo,self.public,branches=('main',),channel='spojeni/data-v2',now=NOW)
+        self.assertNotEqual(previous['main'],self.heads()['main'])
+        self.assertEqual(previous[LEGACY],self.heads()[LEGACY])
+        self.assertEqual(self.manifest,json.loads(self.read('main','spojeni/data-v2/manifest.json')))

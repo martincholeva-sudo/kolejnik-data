@@ -17,8 +17,9 @@ importéry, ověřování dat, potřebné referenční podklady a testy.
 
 Nejprve se stáhnou a ověří zdroje. Úplné soubory se validují před změnou
 ukazatele `manifest.json`. Publikace upravuje výhradně `spojeni/data-v2` nebo
-`spojeni/data-national` a atomicky aktualizuje hlavní a kompatibilní mobilní
-větev. Souběžná změna se znovu načte; historie se nikdy nepřepisuje silou.
+`spojeni/data-national`. PID používá společnou adresu webu i APK z hlavní větve.
+Celostátní data atomicky aktualizují hlavní i kompatibilní mobilní větev.
+Souběžná změna se znovu načte; historie se nikdy nepřepisuje silou.
 Při neúplných datech zůstává poslední platná publikace zachována.
 
 Přístup k cílovému projektu používá samostatný deploy klíč v tajné proměnné

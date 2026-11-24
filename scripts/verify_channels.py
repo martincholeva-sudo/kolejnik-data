@@ -13,7 +13,7 @@ from national.remote_publication import git
 from national.publication import validate as validate_national
 
 def verify_mobile(channel, manifest, repo=Path('target')):
-    branches = ['main', 'work/rail-counter-times-20261027']
+    branches = ['main'] if channel == 'data-v2' else ['main', 'work/rail-counter-times-20261027']
     git(repo, 'fetch', '--depth=1', '--filter=blob:none', '--no-tags', 'origin', *[
         '+refs/heads/'+b+':refs/remotes/origin/'+b for b in branches])
     expected = (Path('spojeni') / channel / 'manifest.json').read_bytes()
@@ -26,8 +26,7 @@ def verify_mobile(channel, manifest, repo=Path('target')):
         if hashlib.sha256(git(repo, 'show', ref+name)).digest() != hashlib.sha256((Path('spojeni')/channel/name).read_bytes()).digest():
             raise ValueError('Installed-app daily data differ')
 
-def verify_web_national(manifest, fetch_bytes=fetch):
-    base = 'https://kolejnik.cz/spojeni/data-national/'
+def verify_web_national(manifest, fetch_bytes=fetch, base='https://kolejnik.cz/spojeni/data-national/'):
     current = json.loads(fetch_bytes(base+'manifest.json?verify='+str(int(time.time()))))
     if current['sha256'] != manifest['sha256'] or timestamp(current) < timestamp(manifest):
         raise ValueError('National publication has not reached the public website')
@@ -52,6 +51,7 @@ if __name__ == '__main__':
         try:
             if channel == 'data-national':
                 verify_web_national(manifest)
+                verify_web_national(manifest, base='https://work-rail-counter-times-2026.kolejnik-web.pages.dev/spojeni/data-national/')
             else:
                 verify_deployed(manifest)
             break
@@ -60,7 +60,7 @@ if __name__ == '__main__':
                 raise
             time.sleep(20)
     verify_mobile(channel, manifest)
-    summary = f"Verified {channel}: web and installed-app branches; source check {manifest['checkedAt']}; {len(manifest['days'])} service days.\n"
+    summary = f"Verified {channel}: public web and installed-app data channel; source check {manifest['checkedAt']}; {len(manifest['days'])} service days.\n"
     print(summary)
     if os.environ.get('GITHUB_STEP_SUMMARY'):
         with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:

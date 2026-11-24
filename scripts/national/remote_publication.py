@@ -71,8 +71,11 @@ def candidate(repo, parent, blobs, metadata, index, channel=CHANNEL, names=NAMES
 def publish_refs(repo, public, branches=('main', 'work/rail-counter-times-20261027'), *,
                  remote='origin', now=None, before_push=None, attempts=3, channel=CHANNEL):
     repo, public = Path(repo).resolve(), Path(public).resolve()
-    if channel not in {CHANNEL, 'spojeni/data-v2'} or public.name != channel.rsplit('/', 1)[1] or len(branches) != 2 or len(set(branches)) != 2:
-        raise ImportErrorDetail('Two distinct national publication branches are required')
+    if channel not in {CHANNEL, 'spojeni/data-v2'} or public.name != channel.rsplit('/', 1)[1]:
+        raise ImportErrorDetail('Only the two generated timetable channels are allowed')
+    allowed_counts = {2} if channel == CHANNEL else {1, 2}
+    if len(branches) not in allowed_counts or len(set(branches)) != len(branches):
+        raise ImportErrorDetail('Invalid or duplicate publication branches')
     for branch in branches:
         git(repo, 'check-ref-format', 'refs/heads/'+branch)
     names = NAMES if channel == CHANNEL else PID_NAMES
