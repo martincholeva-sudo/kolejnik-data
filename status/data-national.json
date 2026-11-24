@@ -1,0 +1,11 @@
+{
+  "channel": "data-national",
+  "revision": "c80b4f388699ce8d19034b12cd551e715b9114f4530f0e987caac2f3b2a19aec",
+  "sourceCheckedAt": "2026-11-24T12:15:40.029855+00:00",
+  "start": "2026-11-24",
+  "end": "2026-11-30",
+  "deliveryVerifiedAt": "2026-11-24T13:13:01.371465+00:00",
+  "webAndMobileVerified": true,
+  "updaterCommit": "217d929691e94bfc7e4d1b2ab16c189816734e2d",
+  "run": "45393054209"
+}
