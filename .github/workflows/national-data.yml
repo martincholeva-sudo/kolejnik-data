@@ -1,6 +1,11 @@
 name: Celostatni jizdni rady bez placenych minut
 on:
   workflow_dispatch:
+    inputs:
+      verify_only:
+        description: 'Pouze overit jiz zverejnena data webu a mobilni aplikace'
+        type: boolean
+        default: false
   schedule:
     - cron: '35 0 * * *'
 permissions:
@@ -27,6 +32,7 @@ jobs:
       - name: Verify importers and atomic publication
         run: python -m unittest discover -s tests -p 'test_*.py'
       - uses: actions/cache/restore@v4
+        if: ${{ !inputs.verify_only }}
         with:
           path: |
             runtime/national-refresh/sources
@@ -46,8 +52,10 @@ jobs:
           fetch-depth: 1
       - run: python scripts/seed_data.py data-national
       - name: Revalidate official sources and build complete shared data
+        if: ${{ !inputs.verify_only }}
         run: python scripts/refresh_national_data.py
       - name: Publish identical data to web and installed-app branches
+        if: ${{ !inputs.verify_only }}
         run: |
           git -C target config user.name 'Kolejnik data updater'
           git -C target config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -56,7 +64,7 @@ jobs:
         id: delivery
         run: python scripts/verify_channels.py data-national
       - uses: actions/cache/save@v4
-        if: always()
+        if: ${{ always() && !inputs.verify_only }}
         continue-on-error: true
         with:
           path: |
