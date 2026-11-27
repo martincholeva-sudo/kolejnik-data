@@ -1,11 +1,11 @@
 {
   "channel": "data-v2",
-  "revision": "e401c382b2e84b7d776eb375031b21073df6e5962a7a37ad98a534a565645774",
-  "sourceCheckedAt": "2026-11-26T23:50:47.039048+00:00",
-  "start": "2026-11-26",
-  "end": "2026-12-09",
-  "deliveryVerifiedAt": "2026-11-26T23:52:31.662393+00:00",
+  "revision": "3105f6c10ece5fb89946d9936a998928c2907c62de3c6cf1e89a76cd3df86962",
+  "sourceCheckedAt": "2026-11-27T12:12:17.601438+00:00",
+  "start": "2026-11-27",
+  "end": "2026-12-10",
+  "deliveryVerifiedAt": "2026-11-27T12:16:03.146488+00:00",
   "webAndMobileVerified": true,
-  "updaterCommit": "7ee969c9dab3b94fe4c0178699f16b339425b72c",
-  "run": "45913249302"
+  "updaterCommit": "167f754737c9251badd4d0db001cb40db54ef766",
+  "run": "45996584997"
 }
